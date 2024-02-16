@@ -1,0 +1,28 @@
+@ARTICLE{2006MNRAS.372..961K,
+       author = {{Kewley}, Lisa J. and {Groves}, Brent and {Kauffmann}, Guinevere and {Heckman}, Tim},
+        title = "{The host galaxies and classification of active galactic nuclei}",
+      journal = {\mnras},
+     keywords = {galaxies: active, galaxies: Seyfert, galaxies: starburst, Astrophysics},
+         year = 2006,
+        month = nov,
+       volume = {372},
+       number = {3},
+        pages = {961-976},
+          doi = {10.1111/j.1365-2966.2006.10859.x},
+archivePrefix = {arXiv},
+       eprint = {astro-ph/0605681},
+ primaryClass = {astro-ph},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2006MNRAS.372..961K},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+Per quanto riguarda le funzioni Utilizzate per la classificazione degli AGNs
+
+
+
+
+IMPORTANTE : Citare gli articoli di Vol der linden, di quelli che hanno prodotto l'elenco delle radioloud !!!
+
+
+ricordati di citare anche il ragionamento che sta alla base citando il fatto che non sia una classificazione certa !! 

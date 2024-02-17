@@ -6,7 +6,7 @@
 % fleqn        e' per avere le equazioni allineate a sx
 % openright    e' per iniziare i capitoli sempre a destra
 
-% \usepackage[english,italian]{babel}  % per la lingua: cambia il nome dei capitoli in italiano
+\usepackage[english]{babel}  % per la lingua: cambia il nome dei capitoli in italiano
 \usepackage[dvips]{graphicx}         % per inserire le immagini
 \usepackage{verbatim}                % per usare \begin{comment}
 \usepackage{syntonly}                % per usare il comando syntaxonly
@@ -19,8 +19,9 @@
 \linespread{1.2}  % Per avere una maggiore interlinea. Se si dovesse cambiare, attenzione ai 
                   % comandi dati per l'interlinea delle caption. 
 
-\author{Mario Rossi}
-\title{TESI DI LAUREA}
+\author{Andrea Maccarinelli}
+\title{TESI DI LAUREA TRIENNALE}
+\include{frontespizio}
 
 
 
@@ -48,15 +49,17 @@
 \rhead[\fancyplain{}{\emph\leftmark}]{\fancyplain{}{\thepage}}
 \cfoot{}
 
-%\include{introduzione}  
-%\include{capitolo_1}    
-%\include{capitolo_2}    
-%\include{capitolo_3}    
-%\include{conclusioni}         
-%\include{bibliografia}         
+
+\include{Abstract}
+\include{introduzione}  
+\include{capitolo_1}    
+\include{capitolo_2}    
+\include{capitolo_3}    
+\include{conclusioni}         
+\include{bibliografia}         
 
 % INIZIO COMMENTO
-%\begin{comment} 
+\begin{comment} 
 
 % quello che sta qui non viene compilato
 

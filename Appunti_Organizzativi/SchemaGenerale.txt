@@ -1,0 +1,39 @@
+Descrizione programmatica delle varie parti che comporranno la mia tesi !
+
+
+
+SEQUENZA DEI CAPITOLI:
+
+0 ) Abstract
+1 ) Introduction
+2 ) Data Description
+3 ) Data Analysis
+4 ) Results
+5 ) Summary
+
+
+
+
+What i'll be including in each section ?
+
+SECTION ZERO : THE ABSTRACT )
+This section will briefly introduce the lettor to the work that has been done in this project. 
+To accomplish this task i should be extremely sintetic ( it has to be maximum 15rows ) and also complete,
+to be able to transmit the reader a good overview in each one of the following topics :
+
+1 ) Context of study
+2 ) Aims of the project
+3 ) Methods
+4 ) Results
+5 ) Conclusions
+
+
+This section seems to be one of the main parts of the whole thesis !!!
+
+
+FIRST CHAPTER : THE INTRODUCTION )
+In this first chapter i'll be introducing the field of study in a sintetic but effective way.
+
+Obviously i need to write an introduction to the following themes :
+1 )  
+

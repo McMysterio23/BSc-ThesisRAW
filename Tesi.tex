@@ -1,5 +1,6 @@
 \documentclass[12pt,twoside,a4paper,fleqn,openright]{book}
 
+
 % 11pt         e' la dimensione del carattere
 % twoside      e' per avere fronte/retro
 % a4paper      si spiega da solo
@@ -10,32 +11,57 @@
 \usepackage[dvips]{graphicx}         % per inserire le immagini
 \usepackage{verbatim}                % per usare \begin{comment}
 \usepackage{syntonly}                % per usare il comando syntaxonly
-\usepackage{subfigure}               % per strutturare le immagni
-\usepackage{fancyheadings}           % per la righetta fottuta & co.
+%\usepackage{subfigure}               % per strutturare le immagni
+\usepackage{fancyhdr}           % per la righetta fottuta & co.
 %\usepackage{rotating}                % chissa' a che serve?
+
+%\documentclass[12pt,a4paper,]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage{listings}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+%\usepackage[demo]{graphicx}
+%\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage{listings}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{float}
+\usepackage{mwe}
+\usepackage{tabularx}
 
 
 %syntaxonly       % per eseguire solo un controllo sintattico, senza compilare
 \linespread{1.2}  % Per avere una maggiore interlinea. Se si dovesse cambiare, attenzione ai 
                   % comandi dati per l'interlinea delle caption. 
 
-\author{Andrea Maccarinelli}
-\title{TESI DI LAUREA TRIENNALE}
-\include{frontespizio}
+%\author{Andrea Maccarinelli}
+%\title{TESI DI LAUREA TRIENNALE}
 
 
+%\include{frontespizio}
 
 \begin{document}
+
+%\include{frontespizio}
 
 
 
 %\pagestyle{headings}
 
-\maketitle
+%\maketitle
 
-\pagestyle{empty}
+%\pagestyle{empty}
 
-\tableofcontents
+%\tableofcontents
 
 
 \pagestyle{fancyplain}
@@ -49,14 +75,21 @@
 \rhead[\fancyplain{}{\emph\leftmark}]{\fancyplain{}{\thepage}}
 \cfoot{}
 
-
+\include{frontespizio}
 \include{Abstract}
+\tableofcontents
+%\include{Abstract}
 \include{introduzione}  
 \include{capitolo_1}    
 \include{capitolo_2}    
 \include{capitolo_3}    
-\include{conclusioni}         
-\include{bibliografia}         
+\include{conclusioni} 
+
+\bibliographystyle{plain}       
+\bibliography{articoli}{}
+
+
+%\include{bibliografia}         
 
 % INIZIO COMMENTO
 \begin{comment} 
@@ -72,3 +105,4 @@
 
 
 \end{document}
+

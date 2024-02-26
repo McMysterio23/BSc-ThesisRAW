@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  18 FEB 2024 21:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  26 FEB 2024 18:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -357,40 +357,66 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \TX@delta=\dimen180
 \TX@cols=\count305
 \TX@ftn=\toks30
-) (./Tesi.aux
-(./frontespizio.aux) (./Abstract.aux) (./introduzione.aux) (./capitolo_1.aux)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen181
+\ESO@tempdimb=\dimen182
+)
+\AM@pagewidth=\dimen183
+\AM@pageheight=\dimen184
+\AM@fboxrule=\dimen185
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count306
+\AM@pagebox=\box58
+\AM@global@opts=\toks31
+\AM@pagecnt=\count307
+\AM@toc@title=\toks32
+\c@AM@survey=\count308
+\AM@templatesizebox=\box59
+)
+(./Tesi.aux (./Abstract.aux) (./introduzione.aux) (./capitolo_1.aux)
 (./capitolo_2.aux) (./capitolo_3.aux) (./conclusioni.aux))
 \openout1 = `Tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-\c@lstlisting=\count306
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+\c@lstlisting=\count309
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count307
-\scratchdimen=\dimen181
-\scratchbox=\box58
-\nofMPsegments=\count308
-\nofMParguments=\count309
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count310
-\MPscratchDim=\dimen182
-\MPnumerator=\count311
-\makeMPintoPDFobject=\count312
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count310
+\scratchdimen=\dimen186
+\scratchbox=\box60
+\nofMPsegments=\count311
+\nofMParguments=\count312
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen187
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
+\everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -403,58 +429,77 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\openout2 = `frontespizio.aux'.
 
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
-(./frontespizio.tex
-<logo_unimib.png, id=1, 5018.75pt x 5018.75pt>
-File: logo_unimib.png Graphic file (type png)
-<use logo_unimib.png>
-Package pdftex.def Info: logo_unimib.png  used on input line 20.
-(pdftex.def)             Requested size: 97.5pt x 97.48616pt.
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+</Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, id=1, 614.29
+5pt x 794.97pt>
+File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
+file (type pdf)
+<use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf>
+Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
+spizio.pdf  used on input line 84.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
+file (type pdf)
+<use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf>
+Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
+spizio.pdf  used on input line 84.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+</Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, id=4, page=1
+, 614.295pt x 794.97pt>
+File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
+file (type pdf)
+<use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
+Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
+spizio.pdf , page1 used on input line 84.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
+file (type pdf)
+<use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
+Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
+spizio.pdf , page1 used on input line 84.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
+file (type pdf)
+<use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
+Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
+spizio.pdf , page1 used on input line 84.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
+file (type pdf)
+<use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
+Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
+spizio.pdf , page1 used on input line 84.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
+file (type pdf)
+<use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
+Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
+spizio.pdf , page1 used on input line 84.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [1
 Non-PDF special ignored!
 <special> papersize=597.50787pt,845.04684pt
 
-
-
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo_
-unimib.png>])
+ </Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf{/usr/local/t
+exlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}>]
 \openout2 = `Abstract.aux'.
 
  (./Abstract.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [2
 
 
-
-
-])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[3]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[4
+]) [3] [4
 
 
 
@@ -462,51 +507,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \tf@toc=\write3
 \openout3 = `Tesi.toc'.
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[5]
+ [5]
 \openout2 = `introduzione.aux'.
 
- (./introduzione.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[6
+ (./introduzione.tex [6
 
 
-])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7]
+]) [7]
 \openout2 = `capitolo_1.aux'.
 
  (./capitolo_1.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [8
 
 
@@ -514,164 +524,66 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 1.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[9]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[11]
+[9] [10]) [11]
 \openout2 = `capitolo_2.aux'.
 
- (./capitolo_2.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[12
+ (./capitolo_2.tex [12
 
 
 
 
 ]
 Chapter 2.
-)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[13]
+) [13]
 \openout2 = `capitolo_3.aux'.
 
- (./capitolo_3.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[14
+ (./capitolo_3.tex [14
 
 
 
 
 ]
 Chapter 3.
-)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[15]
+) [15]
 \openout2 = `conclusioni.aux'.
 
- (./conclusioni.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[16
+ (./conclusioni.tex [16
 
 
 
 
-])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[17] (./Tesi.bbl
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[18
+]) [17] (./Tesi.bbl [18
 
 
 
-]
-./Tesi.bbl:6: Undefined control sequence.
-l.6 \newblock {\em \mnras
-                         }, 372(3):961--976, November 2006.
-? 
-)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[19] (./Tesi.aux (./frontespizio.aux) (./Abstract.aux) (./introduzione.aux)
-(./capitolo_1.aux) (./capitolo_2.aux) (./capitolo_3.aux) (./conclusioni.aux)) )
- 
+]) [19] (./Tesi.aux
+(./Abstract.aux) (./introduzione.aux) (./capitolo_1.aux) (./capitolo_2.aux)
+(./capitolo_3.aux) (./conclusioni.aux)) ) 
 Here is how much of TeX's memory you used:
- 7311 strings out of 478994
- 114357 string characters out of 5858184
+ 8054 strings out of 478994
+ 126815 string characters out of 5858184
  600586 words of memory out of 5000000
- 24633 multiletter control sequences out of 15000+600000
- 410571 words of font info for 52 fonts, out of 8000000 for 9000
+ 25357 multiletter control sequences out of 15000+600000
+ 409069 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,12n,89p,298b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Tesi.pdf (19 pages, 747956 bytes).
+ 86i,17n,89p,298b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fo
+nts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm1200.pfb>
+Output written on Tesi.pdf (19 pages, 788774 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 129 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: tesi.aux
-A level-1 auxiliary file: frontespizio.aux
+The top-level auxiliary file: Tesi.aux
 A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: introduzione.aux
 A level-1 auxiliary file: capitolo_1.aux
@@ -12,12 +11,12 @@ The style file: plain.bst
 Database file #1: articoli.bib
 You've used 1 entry,
             2118 wiz_defined-function locations,
-            512 strings with 4295 characters,
-and the built_in function-call counts, 407 in all, are:
+            511 strings with 4312 characters,
+and the built_in function-call counts, 409 in all, are:
 = -- 36
 > -- 23
 < -- 0
-+ -- 9
++ -- 10
 - -- 8
 * -- 38
 := -- 75
@@ -41,7 +40,7 @@ purify$ -- 6
 quote$ -- 0
 skip$ -- 7
 stack$ -- 0
-substring$ -- 26
+substring$ -- 27
 swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0

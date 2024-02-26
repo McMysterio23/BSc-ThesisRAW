@@ -1,0 +1,14 @@
+Certamente! Ecco la sequenza completa di comandi per compilare il tuo documento LaTeX, inclusa la compilazione di BibTeX, utilizzando TeXShop:
+
+1. **Compilazione iniziale:** Apri il tuo documento principale in TeXShop e compila con "LaTeX" (tasto "Typeset" o `Cmd + T`). Questo produrrà un file `.aux`.
+
+2. **Compilazione di BibTeX:** Dopo la compilazione iniziale, esegui BibTeX.
+ Seleziona il tuo documento principale e scegli "BibTeX" dal menu (o utilizza la scorciatoia `Cmd + Shift + B`). Questo genererà il file `.bbl` e imposterà le citazioni nel documento.
+
+3. **Compilazione finale:** Dopo aver eseguito BibTeX, compila nuovamente il tuo documento LaTeX principale due volte 
+con "LaTeX" (tasto "Typeset" o `Cmd + T`). Questo è necessario perché in alcune situazioni le citazioni potrebbero non essere completamente aggiornate alla prima compilazione.
+
+4. **Visualizza il PDF finale:** Visualizza il PDF finale con "LaTeX" (tasto "Typeset" o `Cmd + T`).
+
+Ricorda che è importante eseguire la compilazione più volte, in particolare dopo l'esecuzione di BibTeX, per
+ garantire che tutte le citazioni e i riferimenti siano correttamente aggiornati nel tuo documento.

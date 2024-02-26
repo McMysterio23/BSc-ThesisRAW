@@ -37,6 +37,11 @@
 \usepackage{float}
 \usepackage{mwe}
 \usepackage{tabularx}
+\setlength{\headheight}{14.49998pt}
+\addtolength{\topmargin}{-2.49998pt}
+\usepackage{pdfpages}
+
+
 
 
 %syntaxonly       % per eseguire solo un controllo sintattico, senza compilare
@@ -75,7 +80,8 @@
 \rhead[\fancyplain{}{\emph\leftmark}]{\fancyplain{}{\thepage}}
 \cfoot{}
 
-\include{frontespizio}
+%\include{frontespizio} %DA CAMBIARE OBBLIGATORIAMENTE, DEVO SOSTITUIRE CON UN QUALCOSA CHE VADA AD AGGIUNGERE IL PDF DEL FRONTESPIZIO NON IL FILE CON IL CODICE !!
+\includepdf{/Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf}
 \include{Abstract}
 \tableofcontents
 %\include{Abstract}

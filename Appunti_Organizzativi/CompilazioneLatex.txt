@@ -12,3 +12,10 @@ con "LaTeX" (tasto "Typeset" o `Cmd + T`). Questo è necessario perché in alcun
 
 Ricorda che è importante eseguire la compilazione più volte, in particolare dopo l'esecuzione di BibTeX, per
  garantire che tutte le citazioni e i riferimenti siano correttamente aggiornati nel tuo documento.
+
+
+
+BRUTTA COPIA DI ALCUNE PARTI DI TESTO
+RIFERITO ALL'ABSTRACT :
+This Thesis Work focuses on investigating the role of the environment in the mass accretion of a SMBH, through a comparative analysis made using samples of BCGs and Non-BCGS. %Migliorabile seguendo i commenti che mi ha fatto Andrea
+We have been able to make this study by inspecting a galaxy sample made by the team MPA-JHU on the reference of Raw data of Data Release 7 in the context of the project "The Sloan Digital Sky Survey". 

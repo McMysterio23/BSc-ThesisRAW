@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  26 FEB 2024 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  27 FEB 2024 20:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,15 +499,15 @@ exlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}>]
 [2
 
 
-]) [3] [4
-
-
-
-] (./Tesi.toc)
+]) [3] [4] (./Tesi.toc)
 \tf@toc=\write3
 \openout3 = `Tesi.toc'.
 
- [5]
+ [5
+
+
+
+]
 \openout2 = `introduzione.aux'.
 
  (./introduzione.tex [6
@@ -566,7 +566,7 @@ Here is how much of TeX's memory you used:
  25357 multiletter control sequences out of 15000+600000
  409069 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,17n,89p,298b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,17n,89p,471b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fo
 nts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/font
@@ -580,7 +580,7 @@ e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
 blic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
 ic/cm-super/sfrm1200.pfb>
-Output written on Tesi.pdf (19 pages, 789652 bytes).
+Output written on Tesi.pdf (19 pages, 791418 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream

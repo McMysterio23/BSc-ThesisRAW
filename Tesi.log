@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  27 FEB 2024 20:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  28 FEB 2024 20:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -384,43 +384,83 @@ File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count308
 \AM@templatesizebox=\box59
 )
-(./Tesi.aux (./Abstract.aux) (./introduzione.aux) (./capitolo_1.aux)
-(./capitolo_2.aux) (./capitolo_3.aux) (./conclusioni.aux))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip68
+\bibsep=\skip69
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count309
+) (./Tesi.aux
+(./Abstract.aux) (./introduzione.aux) (./capitolo_1.aux) (./capitolo_2.aux)
+(./capitolo_3.aux) (./conclusioni.aux))
 \openout1 = `Tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-\c@lstlisting=\count309
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+\c@lstlisting=\count310
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
+\scratchcounter=\count311
 \scratchdimen=\dimen186
 \scratchbox=\box60
-\nofMPsegments=\count311
-\nofMParguments=\count312
+\nofMPsegments=\count312
+\nofMParguments=\count313
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count313
+\MPscratchCnt=\count314
 \MPscratchDim=\dimen187
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
 \everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -433,9 +473,6 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
-(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
@@ -447,13 +484,13 @@ File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf  used on input line 84.
+spizio.pdf  used on input line 91.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf  used on input line 84.
+spizio.pdf  used on input line 91.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 </Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, id=4, page=1
 , 614.295pt x 794.97pt>
@@ -461,31 +498,31 @@ File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 84.
+spizio.pdf , page1 used on input line 91.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 84.
+spizio.pdf , page1 used on input line 91.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 84.
+spizio.pdf , page1 used on input line 91.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 84.
+spizio.pdf , page1 used on input line 91.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 84.
+spizio.pdf , page1 used on input line 91.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [1
 Non-PDF special ignored!
@@ -499,7 +536,7 @@ exlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}>]
 [2
 
 
-]) [3] [4] (./Tesi.toc)
+] [3]) [4] (./Tesi.toc)
 \tf@toc=\write3
 \openout3 = `Tesi.toc'.
 
@@ -556,34 +593,35 @@ Chapter 3.
 
 
 
-]) [19] (./Tesi.aux
-(./Abstract.aux) (./introduzione.aux) (./capitolo_1.aux) (./capitolo_2.aux)
-(./capitolo_3.aux) (./conclusioni.aux)) ) 
+] [19] [20]) [21]
+(./Tesi.aux (./Abstract.aux) (./introduzione.aux) (./capitolo_1.aux)
+(./capitolo_2.aux) (./capitolo_3.aux) (./conclusioni.aux)) ) 
 Here is how much of TeX's memory you used:
- 8054 strings out of 478994
- 126815 string characters out of 5858184
- 600586 words of memory out of 5000000
- 25357 multiletter control sequences out of 15000+600000
+ 8871 strings out of 478994
+ 139655 string characters out of 5858184
+ 602586 words of memory out of 5000000
+ 26142 multiletter control sequences out of 15000+600000
  409069 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,17n,89p,471b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fo
-nts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
-ic/cm-super/sfrm1200.pfb>
-Output written on Tesi.pdf (19 pages, 791418 bytes).
+ 86i,17n,89p,476b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive
+/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Tesi.pdf (21 pages, 806241 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

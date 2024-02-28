@@ -41,8 +41,14 @@
 \addtolength{\topmargin}{-2.49998pt}
 \usepackage{pdfpages}
 
+\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society}
+\newcommand{\apj}{The Astrophysical Journal}
+\newcommand{\aj}{The Astronomical Journal}
+\newcommand{\aap}{Astronomy \& Astrophysics}
 
-
+\usepackage[numbers]{natbib}
+\bibliographystyle{plainnat}
+\setcitestyle{authoryear,open={(},close={)}}
 
 %syntaxonly       % per eseguire solo un controllo sintattico, senza compilare
 \linespread{1.2}  % Per avere una maggiore interlinea. Se si dovesse cambiare, attenzione ai 
@@ -50,6 +56,7 @@
 
 %\author{Andrea Maccarinelli}
 %\title{TESI DI LAUREA TRIENNALE}
+
 
 
 %\include{frontespizio}
@@ -84,14 +91,14 @@
 \includepdf{/Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf}
 \include{Abstract}
 \tableofcontents
-%\include{Abstract}
-\include{introduzione}  
+
 \include{capitolo_1}    
 \include{capitolo_2}    
 \include{capitolo_3}    
 \include{conclusioni} 
 
-\bibliographystyle{plain}       
+\bibliographystyle{plainnat}
+\setcitestyle{authoryear,open={(},close={)}}
 \bibliography{articoli}{}
 
 

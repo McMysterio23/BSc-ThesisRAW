@@ -1,0 +1,13 @@
+This Thesis work focuses in inspecting how the different environment affects the way mass accretes onto a SMBH, and with that the correlated differences in the feedback.
+The Aim of this work is to study samples of Brightest Cluster Galaxies ( BCGs ) and non-BCGs to inspect possible differences.
+
+Such Analysis has been possible by cross-matching the Galaxy Sample created by the MPA-JHU team in the context of  "The Sloan Digital Sky Survey" ( SDSS ) with the C4 Cluster Catalogue, to identify the BCGs.  % AGGIUNGERE LE CITAZIONI \cite{miller_2005} e quella a Kauffman
+To enlighten differences in how the environment affects the SMBH feedback, this work presents a comparative analysis made with AGN fractions defined in properly identified space regions, both in optical and in radio context.
+To carry out a proper optical analysis, the study adopts the direction of a photo-spectrometry investigation, primarily due to the abundance of spectrum-derived data available in the SDSS-derived galaxy sample.
+The following part of the analysis, focusing on radio-emitting objects, was conducted through a cross-match, this time involving a sample of radio emitter galaxies created by Best et al.
+
+As a result, these analyses show that the fraction of Optical AGN is way greater in BCGs samples rather than noBCGs ones.
+A further analysis of the BPT SII diagram also revealed that BCGs are cold objects whose AGN interacts more likely by shocking the gas rather than in a hot radiative way.
+On the radio emission front, the analysis of the obtained data samples also discloses a higher percentage of RadioLoud emitting objects in the BCG sample compared to the other one.
+
+In conclusion, this work demonstrates that, based on the collected data, there is no doubt that the warmer gas found in a galaxy cluster plays a crucial role in influencing the accretion of mass into the supermassive black hole (SMBH) of the Brightest Cluster Galaxy (BCG). Furthermore, for a more advanced study, it may be pertinent to explore the radio domain further, as suggested by the LINER classification that many BCGs have received.

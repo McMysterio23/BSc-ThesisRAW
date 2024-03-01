@@ -1,4 +1,4 @@
-\documentclass[12pt,twoside,a4paper,fleqn,openright]{book}
+\documentclass[11pt,twoside,a4paper,fleqn,openright]{book}
 
 
 % 11pt         e' la dimensione del carattere
@@ -12,9 +12,19 @@
 \usepackage{verbatim}                % per usare \begin{comment}
 \usepackage{syntonly}                % per usare il comando syntaxonly
 %\usepackage{subfigure}               % per strutturare le immagni
-\usepackage{fancyhdr}           % per la righetta fottuta & co.
+\usepackage{fancyhdr}           % per la righetta q & co.
 %\usepackage{rotating}                % chissa' a che serve?
-
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage{listings}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage[english]{babel}  % già incluso nel preambolo
 %\documentclass[12pt,a4paper,]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{mathtools}
@@ -45,10 +55,12 @@
 \newcommand{\apj}{The Astrophysical Journal}
 \newcommand{\aj}{The Astronomical Journal}
 \newcommand{\aap}{Astronomy \& Astrophysics}
+\newcommand{\apjs}{Astrophysical Journal Supplement Series}
+\newcommand{\araa}{Annual Review of Astronomy and Astrophysics}
 
 \usepackage[numbers]{natbib}
 \bibliographystyle{plainnat}
-\setcitestyle{authoryear,open={(},close={)}}
+
 
 %syntaxonly       % per eseguire solo un controllo sintattico, senza compilare
 \linespread{1.2}  % Per avere una maggiore interlinea. Se si dovesse cambiare, attenzione ai 
@@ -91,14 +103,14 @@
 \includepdf{/Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf}
 \include{Abstract}
 \tableofcontents
-
+\setcounter{page}{1}
 \include{capitolo_1}    
 \include{capitolo_2}    
 \include{capitolo_3}    
 \include{conclusioni} 
 
 \bibliographystyle{plainnat}
-\setcitestyle{authoryear,open={(},close={)}}
+%\setcitestyle{authoryear,open={(},close={)}}
 \bibliography{articoli}{}
 
 

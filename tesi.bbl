@@ -1,9 +1,15 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{18}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Abazajian} and {Adelman-McCarthy}(2009)]{2009ApJS..182..543A}
+Kevork~N. {Abazajian} and {Adelman-McCarthy}.
+\newblock {The Seventh Data Release of the Sloan Digital Sky Survey}.
+\newblock \emph{\apjs}, 182\penalty0 (2):\penalty0 543--558, June 2009.
+\newblock \doi{10.1088/0067-0049/182/2/543}.
 
 \bibitem[{Best} et~al.(2005){Best}, {Kauffmann}, {Heckman}, and
   {Ivezi{\'c}}]{2005MNRAS.362....9B}
@@ -29,13 +35,28 @@ Gabriella {De Lucia} and J{\'e}r{\'e}my {Blaizot}.
 \newblock \emph{\mnras}, 375\penalty0 (1):\penalty0 2--14, February 2007.
 \newblock \doi{10.1111/j.1365-2966.2006.11287.x}.
 
-\bibitem[Kewley et~al.(2006)Kewley, Groves, Kauffmann, and
-  Heckman]{2006MNRAS.372..961K}
-Lisa~J. Kewley, Brent Groves, Guinevere Kauffmann, and Tim Heckman.
-\newblock The host galaxies and classification of active galactic nuclei.
-\newblock \emph{Monthly Notices of the Royal Astronomical Society},
-  372\penalty0 (3):\penalty0 961--976, November 2006.
-\newblock \doi{10.1111/j.1365-2966.2006.10859.x}.
+\bibitem[{Fisek} et~al.(2019){Fisek}, {Alis}, {{\"U}lgen}, and
+  {Yelkenci}]{2019CoBAO..66..153F}
+S.~{Fisek}, S.~{Alis}, E.~K. {{\"U}lgen}, and F.~K. {Yelkenci}.
+\newblock {AGN Activity in Brigtest Cluster Galaxies (BCGs)}.
+\newblock \emph{Communications of the Byurakan Astrophysical Observatory},
+  66\penalty0 (2):\penalty0 153--158, December 2019.
+\newblock \doi{10.52526/25792776-2019.66.2-153}.
+
+\bibitem[{Groenewald} et~al.(2017){Groenewald}, {Skelton}, {Gilbank}, and
+  {Loubser}]{2017MNRAS.467.4101G}
+Dani{\`e}l~N. {Groenewald}, Rosalind~E. {Skelton}, David~G. {Gilbank}, and
+  S.~Ilani {Loubser}.
+\newblock {The close pair fraction of BCGs since z = 0.5: major mergers
+  dominate recent BCG stellar mass growth}.
+\newblock \emph{\mnras}, 467\penalty0 (4):\penalty0 4101--4117, June 2017.
+\newblock \doi{10.1093/mnras/stx340}.
+
+\bibitem[{McNamara} and {Nulsen}(2007)]{2007ARA&A..45..117M}
+B.~R. {McNamara} and P.~E.~J. {Nulsen}.
+\newblock {Heating Hot Atmospheres with Active Galactic Nuclei}.
+\newblock \emph{\araa}, 45\penalty0 (1):\penalty0 117--175, September 2007.
+\newblock \doi{10.1146/annurev.astro.45.051806.110625}.
 
 \bibitem[{Miller} et~al.(2005){Miller}, {Nichol}, {Reichart}, {Wechsler},
   {Evrard}, {Annis}, {McKay}, {Bahcall}, {Bernardi}, {Boehringer}, {Connolly},
@@ -50,6 +71,12 @@ Christopher~J. {Miller}, Robert~C. {Nichol}, Daniel {Reichart}, Risa~H.
   Digital Sky Survey}.
 \newblock \emph{\aj}, 130\penalty0 (3):\penalty0 968--1001, September 2005.
 \newblock \doi{10.1086/431357}.
+
+\bibitem[{O'Donnell}(1994)]{1994ApJ...422..158O}
+James~E. {O'Donnell}.
+\newblock {R v-dependent Optical and Near-Ultraviolet Extinction}.
+\newblock \emph{\apj}, 422:\penalty0 158, February 1994.
+\newblock \doi{10.1086/173713}.
 
 \bibitem[{Oliva-Altamirano} et~al.(2014){Oliva-Altamirano}, {Brough}, {Lidman},
   {Couch}, {Hopkins}, {Colless}, {Taylor}, {Robotham}, {Gunawardhana},
@@ -107,6 +134,14 @@ M.~{Vitale}, J.~{Zuther}, M.~{Garc{\'\i}a-Mar{\'\i}n}, A.~{Eckart},
 \newblock \emph{\aap}, 546:\penalty0 A17, October 2012.
 \newblock \doi{10.1051/0004-6361/201219290}.
 
+\bibitem[{Von Der Linden} et~al.(2007){Von Der Linden}, {Best}, {Kauffmann},
+  and {White}]{2007MNRAS.379..867V}
+Anja {Von Der Linden}, Philip~N. {Best}, Guinevere {Kauffmann}, and Simon D.~M.
+  {White}.
+\newblock {How special are brightest group and cluster galaxies?}
+\newblock \emph{\mnras}, 379\penalty0 (3):\penalty0 867--893, August 2007.
+\newblock \doi{10.1111/j.1365-2966.2007.11940.x}.
+
 \bibitem[{von der Linden} et~al.(2010){von der Linden}, {Wild}, {Kauffmann},
   {White}, and {Weinmann}]{2010MNRAS.404.1231V}
 Anja {von der Linden}, Vivienne {Wild}, Guinevere {Kauffmann}, Simon D.~M.
@@ -114,6 +149,13 @@ Anja {von der Linden}, Vivienne {Wild}, Guinevere {Kauffmann}, Simon D.~M.
 \newblock {Star formation and AGN activity in SDSS cluster galaxies}.
 \newblock \emph{\mnras}, 404\penalty0 (3):\penalty0 1231--1246, May 2010.
 \newblock \doi{10.1111/j.1365-2966.2010.16375.x}.
+
+\bibitem[{Wen} and {Han}(2015)]{2015MNRAS.448....2W}
+Z.~L. {Wen} and J.~L. {Han}.
+\newblock {Dependence of the bright end of composite galaxy luminosity
+  functions on cluster dynamical states}.
+\newblock \emph{\mnras}, 448\penalty0 (1):\penalty0 2--8, March 2015.
+\newblock \doi{10.1093/mnras/stu2722}.
 
 \bibitem[{Yuan} et~al.(2016){Yuan}, {Han}, and {Wen}]{2016MNRAS.460.3669Y}
 Z.~S. {Yuan}, J.~L. {Han}, and Z.~L. {Wen}.

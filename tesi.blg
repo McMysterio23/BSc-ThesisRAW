@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Tesi.aux
-The style file: plainnat.bst
+The style file: unsrtnat.bst
 A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: capitolo_1.aux
 A level-1 auxiliary file: capitolo_2.aux
@@ -12,45 +12,45 @@ Illegal, another \bibstyle command---line 11 of file Tesi.aux
  :          {plainnat}
 I'm skipping whatever remains of this command
 Database file #1: articoli.bib
-You've used 18 entries,
-            2773 wiz_defined-function locations,
-            744 strings with 10260 characters,
-and the built_in function-call counts, 12231 in all, are:
-= -- 1000
-> -- 1114
-< -- 5
-+ -- 372
-- -- 354
-* -- 1249
-:= -- 1987
-add.period$ -- 72
-call.type$ -- 18
-change.case$ -- 172
-chr.to.int$ -- 18
-cite$ -- 36
-duplicate$ -- 373
-empty$ -- 710
-format.name$ -- 380
-if$ -- 2454
+You've used 21 entries,
+            2481 wiz_defined-function locations,
+            728 strings with 10518 characters,
+and the built_in function-call counts, 10210 in all, are:
+= -- 722
+> -- 833
+< -- 7
++ -- 300
+- -- 258
+* -- 1040
+:= -- 1783
+add.period$ -- 85
+call.type$ -- 21
+change.case$ -- 42
+chr.to.int$ -- 21
+cite$ -- 21
+duplicate$ -- 399
+empty$ -- 759
+format.name$ -- 289
+if$ -- 2057
 int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 18
-newline$ -- 116
-num.names$ -- 72
-pop$ -- 291
+int.to.str$ -- 22
+missing$ -- 21
+newline$ -- 135
+num.names$ -- 63
+pop$ -- 125
 preamble$ -- 1
-purify$ -- 154
+purify$ -- 21
 quote$ -- 0
-skip$ -- 325
+skip$ -- 202
 stack$ -- 0
-substring$ -- 357
-swap$ -- 36
+substring$ -- 387
+swap$ -- 63
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 198
+type$ -- 147
 warning$ -- 0
-while$ -- 70
+while$ -- 61
 width$ -- 0
-write$ -- 277
+write$ -- 324
 (There was 1 error message)

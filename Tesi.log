@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  1 MAR 2024 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  2 MAR 2024 22:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -395,20 +395,20 @@ LaTeX Info: Redefining \cite on input line 694.
 (./conclusioni.aux))
 \openout1 = `Tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 \c@lstlisting=\count310
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -484,13 +484,13 @@ File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf  used on input line 103.
+spizio.pdf  used on input line 104.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf  used on input line 103.
+spizio.pdf  used on input line 104.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 </Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, id=4, page=1
 , 614.295pt x 794.97pt>
@@ -498,31 +498,31 @@ File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 103.
+spizio.pdf , page1 used on input line 104.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 103.
+spizio.pdf , page1 used on input line 104.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 103.
+spizio.pdf , page1 used on input line 104.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 103.
+spizio.pdf , page1 used on input line 104.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 103.
+spizio.pdf , page1 used on input line 104.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [1
 Non-PDF special ignored!
@@ -553,71 +553,83 @@ exlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}>]
 
 ]
 Chapter 1.
-) [3]
+[3]
+<UnifiedAGNmodel.png, id=64, 505.89pt x 466.74374pt>
+File: UnifiedAGNmodel.png Graphic file (type png)
+<use UnifiedAGNmodel.png>
+Package pdftex.def Info: UnifiedAGNmodel.png  used on input line 17.
+(pdftex.def)             Requested size: 198.0011pt x 182.68454pt.
+ [4] [5]
+<BCG.jpg, id=75, 803.0pt x 803.0pt>
+File: BCG.jpg Graphic file (type jpg)
+<use BCG.jpg>
+Package pdftex.def Info: BCG.jpg  used on input line 57.
+(pdftex.def)             Requested size: 180.0pt x 179.9933pt.
+) [6] [7 <./UnifiedAGNmodel.png> <./BCG.jpg>]
 \openout2 = `capitolo_2.aux'.
 
- (./capitolo_2.tex [4
+ (./capitolo_2.tex
+[8
 
 
 
 
 ]
 Chapter 2.
-) [5]
+) [9]
 \openout2 = `capitolo_3.aux'.
 
- (./capitolo_3.tex [6
+ (./capitolo_3.tex [10
 
 
 
 
 ]
 Chapter 3.
-) [7]
+) [11]
 \openout2 = `conclusioni.aux'.
 
- (./conclusioni.tex [8
+ (./conclusioni.tex [12
 
 
 
 
-]) [9] (./Tesi.bbl [10
+]) [13] (./Tesi.bbl [14
 
 
 
-]
-Underfull \hbox (badness 1152) in paragraph at lines 56--60
-\OT1/cmr/m/it/10.95 As-tro-physics\OT1/cmr/m/n/10.95 , 45(1):117--175, Septem-b
-er 2007.  doi: 10.1146/an-
- []
-
-[11] [12])
+] [15] [16] [17])
 
 Package caption Warning: Unused \captionsetup[sub] on input line 40.
 See the caption package documentation for explanation.
 
-[13] (./Tesi.aux (./Abstract.aux) (./capitolo_1.aux) (./capitolo_2.aux)
+[18] (./Tesi.aux (./Abstract.aux) (./capitolo_1.aux) (./capitolo_2.aux)
 (./capitolo_3.aux) (./conclusioni.aux)) ) 
 Here is how much of TeX's memory you used:
- 8884 strings out of 478994
- 140059 string characters out of 5858184
+ 8926 strings out of 478994
+ 140711 string characters out of 5858184
  603596 words of memory out of 5000000
- 26163 multiletter control sequences out of 15000+600000
- 409945 words of font info for 50 fonts, out of 8000000 for 9000
+ 26200 multiletter control sequences out of 15000+600000
+ 410454 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,17n,89p,1118b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/font
-s/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb>
-Output written on Tesi.pdf (17 pages, 773228 bytes).
+ 86i,17n,89p,1118b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fo
+nts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm1095.pfb>
+Output written on Tesi.pdf (22 pages, 1625149 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 151 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

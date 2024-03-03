@@ -1,14 +1,15 @@
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Introduction}{3}{}%
-\contentsline {section}{\numberline {1.1}The Active Galactic Nuclei}{3}{}%
-\contentsline {section}{\numberline {1.2}The Brightest Cluster Galaxies }{5}{}%
-\contentsline {section}{\numberline {1.3}The Aim of this thesis}{6}{}%
-\contentsline {chapter}{\numberline {2}Methods}{9}{}%
-\contentsline {section}{\numberline {2.1}Data Description}{9}{}%
-\contentsline {section}{\numberline {2.2}Data Analysis}{9}{}%
-\contentsline {subsection}{\numberline {2.2.1}Optical analysis}{9}{}%
-\contentsline {subsection}{\numberline {2.2.2}Radio Analysis}{9}{}%
-\contentsline {chapter}{\numberline {3}Results}{11}{}%
-\contentsline {section}{\numberline {3.1}The Prevalence of AGN activity in BCGs}{11}{}%
-\contentsline {section}{\numberline {3.2}The Radio activity of BCGs}{11}{}%
-\contentsline {chapter}{Conclusions}{13}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The Active Galactic Nuclei}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The Brightest Cluster Galaxies }{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}The Aim of this thesis}{7}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Methods}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Data Description}{10}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}SDSS DR7}{10}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Data Analysis}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Optical analysis}{11}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Radio Analysis}{11}{subsection.2.2.2}%
+\contentsline {chapter}{\numberline {3}Results}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The Prevalence of AGN activity in BCGs}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The Radio activity of BCGs}{13}{section.3.2}%
+\contentsline {chapter}{Conclusions}{15}{chapter*.5}%

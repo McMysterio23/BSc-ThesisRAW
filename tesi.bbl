@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{25}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -81,25 +81,35 @@ Kevork~N. {Abazajian} and {Adelman-McCarthy}.
 \newblock \emph{\apjs}, 182\penalty0 (2):\penalty0 543--558, June 2009.
 \newblock \doi{10.1088/0067-0049/182/2/543}.
 
-\bibitem[{Miller} et~al.(2005){Miller}, {Nichol}, {Reichart}, {Wechsler},
-  {Evrard}, {Annis}, {McKay}, {Bahcall}, {Bernardi}, {Boehringer}, {Connolly},
-  {Goto}, {Kniazev}, {Lamb}, {Postman}, {Schneider}, {Sheth}, and
-  {Voges}]{2005AJ....130..968M}
-Christopher~J. {Miller}, Robert~C. {Nichol}, Daniel {Reichart}, Risa~H.
-  {Wechsler}, August~E. {Evrard}, James {Annis}, Timothy~A. {McKay}, Neta~A.
-  {Bahcall}, Mariangela {Bernardi}, Hans {Boehringer}, Andrew~J. {Connolly},
-  Tomotsugu {Goto}, Alexie {Kniazev}, Donald {Lamb}, Marc {Postman}, Donald~P.
-  {Schneider}, Ravi~K. {Sheth}, and Wolfgang {Voges}.
-\newblock {The C4 Clustering Algorithm: Clusters of Galaxies in the Sloan
-  Digital Sky Survey}.
-\newblock \emph{\aj}, 130\penalty0 (3):\penalty0 968--1001, September 2005.
-\newblock \doi{10.1086/431357}.
+\bibitem[{Von Der Linden} et~al.(2007){Von Der Linden}, {Best}, {Kauffmann},
+  and {White}]{2007MNRAS.379..867V}
+Anja {Von Der Linden}, Philip~N. {Best}, Guinevere {Kauffmann}, and Simon D.~M.
+  {White}.
+\newblock {How special are brightest group and cluster galaxies?}
+\newblock \emph{\mnras}, 379\penalty0 (3):\penalty0 867--893, August 2007.
+\newblock \doi{10.1111/j.1365-2966.2007.11940.x}.
+
+\bibitem[{von der Linden} et~al.(2009){von der Linden}, {Best}, {Kauffmann},
+  and {White}]{2009yCat..73790867V}
+A.~{von der Linden}, P.~N. {Best}, G.~{Kauffmann}, and S.~D.~M. {White}.
+\newblock {VizieR Online Data Catalog: BCG C4 cluster catalog (von der Linden+,
+  2007)}.
+\newblock VizieR On-line Data Catalog: J/MNRAS/379/867. Originally published
+  in: 2007MNRAS.379..867V, July 2009.
 
 \bibitem[{O'Donnell}(1994)]{1994ApJ...422..158O}
 James~E. {O'Donnell}.
 \newblock {R v-dependent Optical and Near-Ultraviolet Extinction}.
 \newblock \emph{\apj}, 422:\penalty0 158, February 1994.
 \newblock \doi{10.1086/173713}.
+
+\bibitem[{Baldwin} et~al.(1981){Baldwin}, {Phillips}, and
+  {Terlevich}]{1981PASP...93....5B}
+J.~A. {Baldwin}, M.~M. {Phillips}, and R.~{Terlevich}.
+\newblock {Classification parameters for the emission-line spectra of
+  extragalactic objects.}
+\newblock \emph{\pasp}, 93:\penalty0 5--19, February 1981.
+\newblock \doi{10.1086/130766}.
 
 \bibitem[{Best} et~al.(2005){Best}, {Kauffmann}, {Heckman}, and
   {Ivezi{\'c}}]{2005MNRAS.362....9B}
@@ -108,6 +118,22 @@ P.~N. {Best}, G.~{Kauffmann}, T.~M. {Heckman}, and {\v{Z}}.~{Ivezi{\'c}}.
   Sky Survey}.
 \newblock \emph{\mnras}, 362\penalty0 (1):\penalty0 9--24, September 2005.
 \newblock \doi{10.1111/j.1365-2966.2005.09283.x}.
+
+\bibitem[{Condon} et~al.(1998){Condon}, {Cotton}, {Greisen}, {Yin}, {Perley},
+  {Taylor}, and {Broderick}]{1998AJ....115.1693C}
+J.~J. {Condon}, W.~D. {Cotton}, E.~W. {Greisen}, Q.~F. {Yin}, R.~A. {Perley},
+  G.~B. {Taylor}, and J.~J. {Broderick}.
+\newblock {The NRAO VLA Sky Survey}.
+\newblock \emph{\aj}, 115\penalty0 (5):\penalty0 1693--1716, May 1998.
+\newblock \doi{10.1086/300337}.
+
+\bibitem[{Becker} et~al.(1995){Becker}, {White}, and
+  {Helfand}]{1995ApJ...450..559B}
+Robert~H. {Becker}, Richard~L. {White}, and David~J. {Helfand}.
+\newblock {The FIRST Survey: Faint Images of the Radio Sky at Twenty
+  Centimeters}.
+\newblock \emph{\apj}, 450:\penalty0 559, September 1995.
+\newblock \doi{10.1086/176166}.
 
 \bibitem[{Vitale} et~al.(2012){Vitale}, {Zuther}, {Garc{\'\i}a-Mar{\'\i}n},
   {Eckart}, {Bremer}, {Valencia-S.}, and {Zensus}]{2012A&A...546A..17V}
@@ -141,14 +167,6 @@ P.~{Oliva-Altamirano}, S.~{Brough}, C.~{Lidman}, W.~J. {Couch}, A.~M.
   through the most massive galaxies in the Universe}.
 \newblock \emph{\mnras}, 440\penalty0 (1):\penalty0 762--775, May 2014.
 \newblock \doi{10.1093/mnras/stu277}.
-
-\bibitem[{Von Der Linden} et~al.(2007){Von Der Linden}, {Best}, {Kauffmann},
-  and {White}]{2007MNRAS.379..867V}
-Anja {Von Der Linden}, Philip~N. {Best}, Guinevere {Kauffmann}, and Simon D.~M.
-  {White}.
-\newblock {How special are brightest group and cluster galaxies?}
-\newblock \emph{\mnras}, 379\penalty0 (3):\penalty0 867--893, August 2007.
-\newblock \doi{10.1111/j.1365-2966.2007.11940.x}.
 
 \bibitem[{Woltjer}(1959)]{1959ApJ...130...38W}
 L.~{Woltjer}.
@@ -187,5 +205,19 @@ L.~P. David, P.~E.~J. Nulsen, B.~R. McNamara, W.~Forman, C.~Jones, T.~Ponman,
   2001.
 \newblock \doi{10.1086/322250}.
 \newblock URL \url{https://dx.doi.org/10.1086/322250}.
+
+\bibitem[{Miller} et~al.(2005){Miller}, {Nichol}, {Reichart}, {Wechsler},
+  {Evrard}, {Annis}, {McKay}, {Bahcall}, {Bernardi}, {Boehringer}, {Connolly},
+  {Goto}, {Kniazev}, {Lamb}, {Postman}, {Schneider}, {Sheth}, and
+  {Voges}]{2005AJ....130..968M}
+Christopher~J. {Miller}, Robert~C. {Nichol}, Daniel {Reichart}, Risa~H.
+  {Wechsler}, August~E. {Evrard}, James {Annis}, Timothy~A. {McKay}, Neta~A.
+  {Bahcall}, Mariangela {Bernardi}, Hans {Boehringer}, Andrew~J. {Connolly},
+  Tomotsugu {Goto}, Alexie {Kniazev}, Donald {Lamb}, Marc {Postman}, Donald~P.
+  {Schneider}, Ravi~K. {Sheth}, and Wolfgang {Voges}.
+\newblock {The C4 Clustering Algorithm: Clusters of Galaxies in the Sloan
+  Digital Sky Survey}.
+\newblock \emph{\aj}, 130\penalty0 (3):\penalty0 968--1001, September 2005.
+\newblock \doi{10.1086/431357}.
 
 \end{thebibliography}

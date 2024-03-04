@@ -6,9 +6,10 @@
 \contentsline {chapter}{\numberline {2}Methods}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Data Description}{10}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}SDSS DR7}{10}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}Data Analysis}{11}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Optical analysis}{11}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Radio Analysis}{11}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.1.2}C4 BCG Catalogue}{11}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Data Analysis}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Optical analysis}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Radio Analysis}{12}{subsection.2.2.2}%
 \contentsline {chapter}{\numberline {3}Results}{13}{chapter.3}%
 \contentsline {section}{\numberline {3.1}The Prevalence of AGN activity in BCGs}{13}{section.3.1}%
 \contentsline {section}{\numberline {3.2}The Radio activity of BCGs}{13}{section.3.2}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  3 MAR 2024 20:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  4 MAR 2024 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -613,7 +613,7 @@ LaTeX Info: Redefining \nameref on input line 78.
 \@outlinefile=\write3
 \openout3 = `Tesi.out'.
 
-</Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, id=60, 614.2
+</Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, id=64, 614.2
 95pt x 794.97pt>
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
@@ -627,7 +627,7 @@ file (type pdf)
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
 spizio.pdf  used on input line 105.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-</Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, id=63, page=
+</Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, id=67, page=
 1, 614.295pt x 794.97pt>
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
@@ -703,7 +703,7 @@ been already used, duplicate ignored
                    \relax 
 l.12 
       [3]
-<UnifiedAGNmodel.png, id=187, 505.89pt x 466.74374pt>
+<UnifiedAGNmodel.png, id=192, 505.89pt x 466.74374pt>
 File: UnifiedAGNmodel.png Graphic file (type png)
 <use UnifiedAGNmodel.png>
 Package pdftex.def Info: UnifiedAGNmodel.png  used on input line 17.
@@ -720,7 +720,7 @@ Overfull \hbox (3.38843pt too wide) in paragraph at lines 40--41
  []
 
 [5]
-<BCG.jpg, id=210, 803.0pt x 803.0pt>
+<BCG.jpg, id=215, 803.0pt x 803.0pt>
 File: BCG.jpg Graphic file (type jpg)
 <use BCG.jpg>
 Package pdftex.def Info: BCG.jpg  used on input line 69.
@@ -735,17 +735,17 @@ Chapter 2.
 
 
 
-] [10]) [11]
+] [10] [11]) [12]
 \openout2 = `capitolo_3.aux'.
 
- (./capitolo_3.tex [12
+ (./capitolo_3.tex
+Chapter 3.
+) [13
 
 
 
 
 ]
-Chapter 3.
-) [13]
 \openout2 = `conclusioni.aux'.
 
  (./conclusioni.tex [14
@@ -765,13 +765,13 @@ See the caption package documentation for explanation.
 [20] (./Tesi.aux (./Abstract.aux) (./capitolo_1.aux) (./capitolo_2.aux)
 (./capitolo_3.aux) (./conclusioni.aux))
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: EA12D91C9D80EB55071C8408624A298B;2052.
+(rerunfilecheck)             Checksum: FE2A64E49B8047869FA14D05B9057338;2200.
  ) 
 Here is how much of TeX's memory you used:
- 14957 strings out of 478994
- 229799 string characters out of 5858184
+ 14959 strings out of 478994
+ 229833 string characters out of 5858184
  667082 words of memory out of 5000000
- 32086 multiletter control sequences out of 15000+600000
+ 32087 multiletter control sequences out of 15000+600000
  410454 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,17n,89p,839b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -787,10 +787,10 @@ cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
 l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
 texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Tesi.pdf (24 pages, 1642783 bytes).
+Output written on Tesi.pdf (24 pages, 1646550 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 283 compressed objects within 3 object streams
- 65 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 293 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

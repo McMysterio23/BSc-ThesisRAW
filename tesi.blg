@@ -5,10 +5,6 @@ The style file: unsrtnat.bst
 A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: capitolo_1.aux
 A level-1 auxiliary file: capitolo_2.aux
-White space in argument---line 10 of file capitolo_2.aux
- : \citation{2007MNRAS.379..867V,2009yCat..73790867V
- :                                                   }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: capitolo_3.aux
 A level-1 auxiliary file: conclusioni.aux
 Illegal, another \bibstyle command---line 28 of file Tesi.aux
@@ -20,15 +16,15 @@ Warning--entry type for "2009yCat..73790867V" isn't style-file defined
 --line 464 of file articoli.bib
 You've used 25 entries,
             2481 wiz_defined-function locations,
-            758 strings with 11446 characters,
-and the built_in function-call counts, 11853 in all, are:
-= -- 848
-> -- 947
-< -- 7
-+ -- 342
-- -- 292
-* -- 1192
-:= -- 2060
+            758 strings with 9452 characters,
+and the built_in function-call counts, 9649 in all, are:
+= -- 862
+> -- 419
+< -- 21
++ -- 166
+- -- 116
+* -- 812
+:= -- 1532
 add.period$ -- 100
 call.type$ -- 25
 change.case$ -- 50
@@ -36,8 +32,8 @@ chr.to.int$ -- 25
 cite$ -- 25
 duplicate$ -- 470
 empty$ -- 896
-format.name$ -- 327
-if$ -- 2398
+format.name$ -- 179
+if$ -- 2074
 int.to.chr$ -- 1
 int.to.str$ -- 26
 missing$ -- 24
@@ -47,7 +43,7 @@ pop$ -- 155
 preamble$ -- 1
 purify$ -- 25
 quote$ -- 0
-skip$ -- 238
+skip$ -- 266
 stack$ -- 0
 substring$ -- 443
 swap$ -- 75
@@ -59,4 +55,4 @@ warning$ -- 0
 while$ -- 72
 width$ -- 0
 write$ -- 381
-(There were 2 error messages)
+(There was 1 error message)

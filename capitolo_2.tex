@@ -9,7 +9,7 @@ Astrophysical spectroscopy is a fundamental tool used to analyze the electromagn
 
 On the other hand, photometry measures the overall brightness of celestial objects across different wavelength bands, providing information about the spectral distribution of their luminous emission. 
 
-In this Thesis Work i'll be focusing on a Spectroscopic study involving the fluxes of the Forbidden Emission lines of the spectrum as presented in the following sections.
+In this Thesis Work i'll be focusing on a Spectroscopic study involving the fluxes of the Forbidden Emission lines of the spectrum.
 
 \section{Data Description}
 This thesis presents results obtained through the cross-matching of three distinct celestial catalogues:
@@ -39,69 +39,44 @@ The SDSS data have been made public in a series of yearly data releases, This th
 
 \textbf{Physical Properties of interest :}
 \begin{itemize}
-		\item \textbf{Line Flux :}Flux from Gaussian fit to continuum subtracted data, corrected for foreground (galactic) reddening using techniques developed by \cite{1994ApJ...422..158O}
+		\item \textbf{Line Flux :}Flux from Gaussian fit to continuum subtracted data, corrected for foreground (galactic) reddening using techniques developed by O'Donnell \cite{1994ApJ...422..158O}
 		\item \textbf{Error Line Flux :} Developed by analyzing the duplicate observations of galaxies, to compare the empirical spread in value determinations with the random errors.
 
 \end{itemize}
 
-\textbf{Aggiungo un plot scat delle zone coperte da SDSS ?}
+\textbf{NOTA : Aggiungo un plot scat delle zone coperte da SDSS ?}
 
 
 \subsection{C4 BCG Catalogue}
-The BCG identification within our main galaxy sample previously described, has been based on results found by A. Von der Linden et Al. \cite{2007MNRAS.379..867V, 2009yCat..73790867V} in the further analysis made on the C4 Galaxy Cluster Catalogue originally developed by Miller et Al in 2005, whose details can be found in \cite{2005AJ....130..968M}
+The identification of BCGs within our primary galaxy sample, previously described, relies on the findings of A. Von der Linden et al. \cite{2007MNRAS.379..867V, 2009yCat..73790867V}. These findings were derived from a subsequent analysis of the C4 Galaxy Cluster Catalog, initially developed by Miller et al. in 2005 \cite{2005AJ....130..968M}.
 
-ciaone
+The C4 catalog comprises 748 galaxy clusters identified in the Second Data Release (DR2) of the Sloan Digital Sky Survey (SDSS). Utilizing a seven-dimensional position and color space, the C4 cluster-finding algorithm identifies overdensities. 
 
-\begin{comment}
+Covering approximately 2600 square degrees of the sky, the catalog spans redshifts from about 0.02 to 0.17. It includes various properties like sky location, mean redshift, galaxy membership, optical luminosity (Lr), velocity dispersion, and measures of substructure and large-scale environment.
 
-3. **Area Coperta:**
-   - Estensione dell'area del cielo coperta dal SDSS.
-   - Dettagli sulla suddivisione dell'area (ad esempio, Northern e Southern Galactic Cap).
+This catalog represents one of the initial cluster catalogs constructed directly from SDSS spectroscopic data, addressing issues related to projection effects and employing mock galaxy catalogs derived from realistic N-body simulations to analyze the clustering algorithm's parameters and improve its completeness.
 
-6. **Catalogo Galattico:**
-   - Informazioni sulla componente galattica del catalogo.
-   - Parametri inclusi per le galassie.
+In this context, the work by Von Der Linden et al.  \cite{2007MNRAS.379..867V} is noteworthy, as it builds upon the C4 catalog but introduces improved algorithms for BCG identification and measuring cluster velocity dispersion,  ultimately yielding a sample of 625 BCGs.
 
-8. **Dati Spettrali:**
-   - Presenza di dati spettrali nel SDSS.
-   - Risoluzione spettrale e gamma di lunghezze d'onda coperte.
+Correcting for the SDSS photometric pipeline's tendency to underestimate luminosities in dense environments, the research refines the C4 galaxy cluster sample, addressing issues related to BCG luminosity underestimation. Given the challenges with SDSS photometry, especially for large galaxies in crowded areas, the study avoids using magnitude measurements assuming a specific profile shape.
 
-9. **Survey Data Releases:**
-   - Divisione dei dati in "Data Releases" e principali miglioramenti/funzionalità introdotte in ciascuno.
+The C4 catalog provides potential BCG candidates, but approximately $30\% $ of clusters miss the true BCG due to fiber collisions. To address this issue,  Von der Linden's team developed an algorithm to identify the BCG by estimating the virial radius, selecting the two brightest galaxies within the mean galaxy's projection, and assessing criteria such as concentration index, color compatibility, and redshift.
 
+\subsection{The Radio Catalogue}
+To investigate the radio emission characteristics of both BCGs and non-BCGs, this study conducted a crossmatch between the primary SDSS sample and a dataset comprising 2,712 radio-luminous galaxies from the work by \cite{2005MNRAS.362....9B}. This collection of radio-luminous objects resulted from a complex cross-matching process involving the main spectroscopic galaxy sample and two radio surveys: the National Radio Astronomy Observatories (NRAO) Very Large Array (VLA) Sky Survey (NVSS) \cite{1998AJ....115.1693C} and the Faint Images of the Radio Sky at Twenty centimeters (FIRST) survey. \cite{1995ApJ...450..559B}
 
+The NVSS was the first radio survey with a sufficiently high angular resolution (45 arcsec) to allow automated cross-correlation with optical surveys. However, the FIRST catalogue offers superior angular resolution (approximately 5 arcsec), resulting in samples with much higher reliability. Nonetheless, the high angular resolution of FIRST presents its own challenges, as it is insensitive to extended radio structures and resolves out the extended emission of radio sources. Consequently, the total radio luminosity of sources larger than a few arcseconds is systematically underestimated by FIRST. To address these limitations, a hybrid approach utilizing both NVSS and FIRST surveys has been developed to identify radio sources associated with galaxies in the SDSS spectroscopic sample. This approach capitalizes on the sensitivity of NVSS to large-scale radio structures and the high angular resolution of FIRST to reliably pinpoint the host galaxy.
 
+The obtained radio source sample demonstrated a completeness of $95\%$ and a reliability of $98.9\%$, upgradingo the achievable performance of each individual survey. The sample was subsequently classified into two groups: radio-loud active galactic nuclei (AGN) and galaxies where radio emission is predominantly driven by star formation. Classification was based on a galaxy's position in the 4000-Å break strength versus radio luminosity per unit stellar mass plane, resulting in a dataset of 2,215 radio-loud AGN and 497 star-forming galaxies with radio luminosity exceeding 5 mJy at 1.4 GHz.
 
-1. **Introduzione al Catalogo C4:**
-   - Breve presentazione del catalogo C4.
-   - Contesto in cui è stato sviluppato.
-
-2. **Origine del Catalogo:**
-   - Motivazioni e scopi per cui è stato creato.
-   - Data di pubblicazione e contesto scientifico.
-
-3. **Selezione delle BCG:**
-   - Criteri utilizzati per identificare le Brightest Cluster Galaxies (BCG).
-   - Parametri considerati nella selezione.
-   - Criteri per l'eliminazione dei doppioni (Opzionale)
-
-4. **Parametri Inclusi per le BCG:**
-   - Elenco dei parametri forniti per ciascuna BCG.
-   - Possibili caratteristiche fotometriche e spettrali.
-
-5. **Copertura del Cielo:**
-   - Estensione dell'area del cielo coperta dal catalogo.
-   - Suddivisione geografica, se pertinente.
-
-6. **Risultati Chiave:**
-   - Eventuali risultati scientifici ottenuti utilizzando il catalogo.
-   - Contributi specifici alle conoscenze astronomiche.
+\begin{figure}[b]
+  \centering
+  \includegraphics[width=0.55\textwidth]{SDSS}
+  \caption{The main 2.5-meter SDSS Telescope }
+  \label{3}
+\end{figure}
 
 
-8. **Accesso ai Dati:**
-   - Aggiungere il riferimento alla bibliografia !!
-
-\end{comment}
 \newpage
 \section{Data Analysis}
 How we analyzed the data, where do we defined the fractions calculated ?

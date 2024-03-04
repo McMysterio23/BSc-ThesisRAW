@@ -5,39 +5,28 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[{Sandage} et~al.(1976){Sandage}, {Kristian}, and
-  {Westphal}]{1976ApJ...205..688S}
-A.~{Sandage}, J.~{Kristian}, and J.~A. {Westphal}.
+\bibitem[{Sandage} and {Kristian}(1976)]{1976ApJ...205..688S}
+A.~{Sandage} and {Kristian}.
 \newblock {The extension of the Hubble diagram. I. New redshifts and BVR
   photometry of remote cluster galaxies, and an improved richness correction.}
 \newblock \emph{\apj}, 205:\penalty0 688--695, May 1976.
 \newblock \doi{10.1086/154324}.
 
-\bibitem[{von der Linden} et~al.(2010){von der Linden}, {Wild}, {Kauffmann},
-  {White}, and {Weinmann}]{2010MNRAS.404.1231V}
-Anja {von der Linden}, Vivienne {Wild}, Guinevere {Kauffmann}, Simon D.~M.
-  {White}, and Simone {Weinmann}.
+\bibitem[{von der Linden} and {Wild}(2010)]{2010MNRAS.404.1231V}
+Anja {von der Linden} and {Wild}.
 \newblock {Star formation and AGN activity in SDSS cluster galaxies}.
 \newblock \emph{\mnras}, 404\penalty0 (3):\penalty0 1231--1246, May 2010.
 \newblock \doi{10.1111/j.1365-2966.2010.16375.x}.
 
-\bibitem[{Groenewald} et~al.(2017){Groenewald}, {Skelton}, {Gilbank}, and
-  {Loubser}]{2017MNRAS.467.4101G}
-Dani{\`e}l~N. {Groenewald}, Rosalind~E. {Skelton}, David~G. {Gilbank}, and
-  S.~Ilani {Loubser}.
+\bibitem[{Groenewald} and {Skelton}(2017)]{2017MNRAS.467.4101G}
+Dani{\`e}l~N. {Groenewald} and {Skelton}.
 \newblock {The close pair fraction of BCGs since z = 0.5: major mergers
   dominate recent BCG stellar mass growth}.
 \newblock \emph{\mnras}, 467\penalty0 (4):\penalty0 4101--4117, June 2017.
 \newblock \doi{10.1093/mnras/stx340}.
 
-\bibitem[{Travascio} et~al.(2020){Travascio}, {Bongiorno}, {Tozzi},
-  {Fassbender}, {De Gasperin}, {Cardone}, {Zappacosta}, {Vietri}, {Merlin},
-  {Bischetti}, {Piconcelli}, {Duras}, {Fiore}, {Menci}, {Mazzotta}, and
-  {Nastasi}]{2020MNRAS.498.2719T}
-A.~{Travascio}, A.~{Bongiorno}, P.~{Tozzi}, R.~{Fassbender}, F.~{De Gasperin},
-  V.~F. {Cardone}, L.~{Zappacosta}, G.~{Vietri}, E.~{Merlin}, M.~{Bischetti},
-  E.~{Piconcelli}, F.~{Duras}, F.~{Fiore}, N.~{Menci}, P.~{Mazzotta}, and
-  A.~{Nastasi}.
+\bibitem[{Travascio} and {Bongiorno}(2020)]{2020MNRAS.498.2719T}
+A.~{Travascio} and {Bongiorno}.
 \newblock {Multiple AGN activity during the BCG assembly of XDCPJ0044.0-2033 at
   z {\ensuremath{\sim}} 1.6}.
 \newblock \emph{\mnras}, 498\penalty0 (2):\penalty0 2719--2733, October 2020.
@@ -49,27 +38,22 @@ Gabriella {De Lucia} and J{\'e}r{\'e}my {Blaizot}.
 \newblock \emph{\mnras}, 375\penalty0 (1):\penalty0 2--14, February 2007.
 \newblock \doi{10.1111/j.1365-2966.2006.11287.x}.
 
-\bibitem[{Cooke} et~al.(2019){Cooke}, {Kartaltepe}, {Tyler}, {Darvish},
-  {Casey}, {Le F{\`e}vre}, {Salvato}, and {Scoville}]{2019ApJ...881..150C}
-Kevin~C. {Cooke}, Jeyhan~S. {Kartaltepe}, K.~D. {Tyler}, Behnam {Darvish},
-  Caitlin~M. {Casey}, Olivier {Le F{\`e}vre}, Mara {Salvato}, and Nicholas
-  {Scoville}.
+\bibitem[{Cooke} and {Kartaltepe}(2019)]{2019ApJ...881..150C}
+Kevin~C. {Cooke} and {Kartaltepe}.
 \newblock {Stellar Mass Growth of Brightest Cluster Galaxy Progenitors in
   COSMOS Since z {\ensuremath{\sim}} 3}.
 \newblock \emph{\apj}, 881\penalty0 (2):\penalty0 150, August 2019.
 \newblock \doi{10.3847/1538-4357/ab30c9}.
 
-\bibitem[{Rafferty} et~al.(2006){Rafferty}, {McNamara}, {Nulsen}, and
-  {Wise}]{2006ApJ...652..216R}
-D.~A. {Rafferty}, B.~R. {McNamara}, P.~E.~J. {Nulsen}, and M.~W. {Wise}.
+\bibitem[{Rafferty} and {McNamara}(2006)]{2006ApJ...652..216R}
+D.~A. {Rafferty} and {McNamara}.
 \newblock {The Feedback-regulated Growth of Black Holes and Bulges through Gas
   Accretion and Starbursts in Cluster Central Dominant Galaxies}.
 \newblock \emph{\apj}, 652\penalty0 (1):\penalty0 216--231, November 2006.
 \newblock \doi{10.1086/507672}.
 
-\bibitem[{Fisek} et~al.(2019){Fisek}, {Alis}, {{\"U}lgen}, and
-  {Yelkenci}]{2019CoBAO..66..153F}
-S.~{Fisek}, S.~{Alis}, E.~K. {{\"U}lgen}, and F.~K. {Yelkenci}.
+\bibitem[{Fisek} and {Alis}(2019)]{2019CoBAO..66..153F}
+S.~{Fisek} and {Alis}.
 \newblock {AGN Activity in Brigtest Cluster Galaxies (BCGs)}.
 \newblock \emph{Communications of the Byurakan Astrophysical Observatory},
   66\penalty0 (2):\penalty0 153--158, December 2019.
@@ -81,17 +65,14 @@ Kevork~N. {Abazajian} and {Adelman-McCarthy}.
 \newblock \emph{\apjs}, 182\penalty0 (2):\penalty0 543--558, June 2009.
 \newblock \doi{10.1088/0067-0049/182/2/543}.
 
-\bibitem[{Von Der Linden} et~al.(2007){Von Der Linden}, {Best}, {Kauffmann},
-  and {White}]{2007MNRAS.379..867V}
-Anja {Von Der Linden}, Philip~N. {Best}, Guinevere {Kauffmann}, and Simon D.~M.
-  {White}.
+\bibitem[{Von Der Linden} and {Best}(2007)]{2007MNRAS.379..867V}
+Anja {Von Der Linden} and {Best}.
 \newblock {How special are brightest group and cluster galaxies?}
 \newblock \emph{\mnras}, 379\penalty0 (3):\penalty0 867--893, August 2007.
 \newblock \doi{10.1111/j.1365-2966.2007.11940.x}.
 
-\bibitem[{von der Linden} et~al.(2009){von der Linden}, {Best}, {Kauffmann},
-  and {White}]{2009yCat..73790867V}
-A.~{von der Linden}, P.~N. {Best}, G.~{Kauffmann}, and S.~D.~M. {White}.
+\bibitem[{von der Linden} and {Best}(2009)]{2009yCat..73790867V}
+A.~{von der Linden} and {Best}.
 \newblock {VizieR Online Data Catalog: BCG C4 cluster catalog (von der Linden+,
   2007)}.
 \newblock VizieR On-line Data Catalog: J/MNRAS/379/867. Originally published
@@ -119,26 +100,21 @@ P.~N. {Best}, G.~{Kauffmann}, T.~M. {Heckman}, and {\v{Z}}.~{Ivezi{\'c}}.
 \newblock \emph{\mnras}, 362\penalty0 (1):\penalty0 9--24, September 2005.
 \newblock \doi{10.1111/j.1365-2966.2005.09283.x}.
 
-\bibitem[{Condon} et~al.(1998){Condon}, {Cotton}, {Greisen}, {Yin}, {Perley},
-  {Taylor}, and {Broderick}]{1998AJ....115.1693C}
-J.~J. {Condon}, W.~D. {Cotton}, E.~W. {Greisen}, Q.~F. {Yin}, R.~A. {Perley},
-  G.~B. {Taylor}, and J.~J. {Broderick}.
+\bibitem[{Condon} and {Cotton}(1998)]{1998AJ....115.1693C}
+J.~J. {Condon} and {Cotton}.
 \newblock {The NRAO VLA Sky Survey}.
 \newblock \emph{\aj}, 115\penalty0 (5):\penalty0 1693--1716, May 1998.
 \newblock \doi{10.1086/300337}.
 
-\bibitem[{Becker} et~al.(1995){Becker}, {White}, and
-  {Helfand}]{1995ApJ...450..559B}
-Robert~H. {Becker}, Richard~L. {White}, and David~J. {Helfand}.
+\bibitem[{Becker} and {White}(1995)]{1995ApJ...450..559B}
+Robert~H. {Becker} and {White}.
 \newblock {The FIRST Survey: Faint Images of the Radio Sky at Twenty
   Centimeters}.
 \newblock \emph{\apj}, 450:\penalty0 559, September 1995.
 \newblock \doi{10.1086/176166}.
 
-\bibitem[{Vitale} et~al.(2012){Vitale}, {Zuther}, {Garc{\'\i}a-Mar{\'\i}n},
-  {Eckart}, {Bremer}, {Valencia-S.}, and {Zensus}]{2012A&A...546A..17V}
-M.~{Vitale}, J.~{Zuther}, M.~{Garc{\'\i}a-Mar{\'\i}n}, A.~{Eckart},
-  M.~{Bremer}, M.~{Valencia-S.}, and A.~{Zensus}.
+\bibitem[{Vitale} and {Zuther}(2012)]{2012A&A...546A..17V}
+M.~{Vitale} and {Zuther}.
 \newblock {Classifying radio emitters from the Sloan Digital Sky Survey.
   Spectroscopy and diagnostics}.
 \newblock \emph{\aap}, 546:\penalty0 A17, October 2012.
@@ -150,19 +126,8 @@ Z.~S. {Yuan}, J.~L. {Han}, and Z.~L. {Wen}.
 \newblock \emph{\mnras}, 460\penalty0 (4):\penalty0 3669--3678, August 2016.
 \newblock \doi{10.1093/mnras/stw1125}.
 
-\bibitem[{Oliva-Altamirano} et~al.(2014){Oliva-Altamirano}, {Brough}, {Lidman},
-  {Couch}, {Hopkins}, {Colless}, {Taylor}, {Robotham}, {Gunawardhana},
-  {Ponman}, {Baldry}, {Bauer}, {Bland-Hawthorn}, {Cluver}, {Cameron},
-  {Conselice}, {Driver}, {Edge}, {Graham}, {van Kampen}, {Lara-L{\'o}pez},
-  {Liske}, {L{\'o}pez-S{\'a}nchez}, {Loveday}, {Mahajan}, {Peacock},
-  {Phillipps}, {Pimbblet}, and {Sharp}]{2014MNRAS.440..762O}
-P.~{Oliva-Altamirano}, S.~{Brough}, C.~{Lidman}, W.~J. {Couch}, A.~M.
-  {Hopkins}, M.~{Colless}, E.~{Taylor}, A.~S.~G. {Robotham}, M.~L.~P.
-  {Gunawardhana}, T.~{Ponman}, I.~{Baldry}, A.~E. {Bauer}, J.~{Bland-Hawthorn},
-  M.~{Cluver}, E.~{Cameron}, C.~J. {Conselice}, S.~{Driver}, A.~C. {Edge},
-  A.~W. {Graham}, E.~{van Kampen}, M.~A. {Lara-L{\'o}pez}, J.~{Liske}, A.~R.
-  {L{\'o}pez-S{\'a}nchez}, J.~{Loveday}, S.~{Mahajan}, J.~{Peacock},
-  S.~{Phillipps}, K.~A. {Pimbblet}, and R.~G. {Sharp}.
+\bibitem[{Oliva-Altamirano} and {Brough}(2014)]{2014MNRAS.440..762O}
+P.~{Oliva-Altamirano} and {Brough}.
 \newblock {Galaxy And Mass Assembly (GAMA): testing galaxy formation models
   through the most massive galaxies in the Universe}.
 \newblock \emph{\mnras}, 440\penalty0 (1):\penalty0 762--775, May 2014.
@@ -188,7 +153,7 @@ Z.~L. {Wen} and J.~L. {Han}.
 \newblock \doi{10.1093/mnras/stu2722}.
 
 \bibitem[{Tremaine} and {Richstone}(1977)]{1977ApJ...212..311T}
-Scott~D. {Tremaine} and Douglas~O. {Richstone}.
+Scott~D. {Tremaine} and {Richstone}.
 \newblock {A test of a statistical model for the luminosities of bright cluster
   galaxies}.
 \newblock \emph{\apj}, 212:\penalty0 311--316, March 1977.
@@ -206,15 +171,8 @@ L.~P. David, P.~E.~J. Nulsen, B.~R. McNamara, W.~Forman, C.~Jones, T.~Ponman,
 \newblock \doi{10.1086/322250}.
 \newblock URL \url{https://dx.doi.org/10.1086/322250}.
 
-\bibitem[{Miller} et~al.(2005){Miller}, {Nichol}, {Reichart}, {Wechsler},
-  {Evrard}, {Annis}, {McKay}, {Bahcall}, {Bernardi}, {Boehringer}, {Connolly},
-  {Goto}, {Kniazev}, {Lamb}, {Postman}, {Schneider}, {Sheth}, and
-  {Voges}]{2005AJ....130..968M}
-Christopher~J. {Miller}, Robert~C. {Nichol}, Daniel {Reichart}, Risa~H.
-  {Wechsler}, August~E. {Evrard}, James {Annis}, Timothy~A. {McKay}, Neta~A.
-  {Bahcall}, Mariangela {Bernardi}, Hans {Boehringer}, Andrew~J. {Connolly},
-  Tomotsugu {Goto}, Alexie {Kniazev}, Donald {Lamb}, Marc {Postman}, Donald~P.
-  {Schneider}, Ravi~K. {Sheth}, and Wolfgang {Voges}.
+\bibitem[{Miller} and {Nichol}(2005)]{2005AJ....130..968M}
+Christopher~J. {Miller} and {Nichol}.
 \newblock {The C4 Clustering Algorithm: Clusters of Galaxies in the Sloan
   Digital Sky Survey}.
 \newblock \emph{\aj}, 130\penalty0 (3):\penalty0 968--1001, September 2005.

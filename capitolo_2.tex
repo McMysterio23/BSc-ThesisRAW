@@ -67,11 +67,11 @@ To investigate the radio emission characteristics of both BCGs and non-BCGs, thi
 
 The NVSS was the first radio survey with a sufficiently high angular resolution (45 arcsec) to allow automated cross-correlation with optical surveys. However, the FIRST catalogue offers superior angular resolution (approximately 5 arcsec), resulting in samples with much higher reliability. Nonetheless, the high angular resolution of FIRST presents its own challenges, as it is insensitive to extended radio structures and resolves out the extended emission of radio sources. Consequently, the total radio luminosity of sources larger than a few arcseconds is systematically underestimated by FIRST. To address these limitations, a hybrid approach utilizing both NVSS and FIRST surveys has been developed to identify radio sources associated with galaxies in the SDSS spectroscopic sample. This approach capitalizes on the sensitivity of NVSS to large-scale radio structures and the high angular resolution of FIRST to reliably pinpoint the host galaxy.
 
-The obtained radio source sample demonstrated a completeness of $95\%$ and a reliability of $98.9\%$, upgradingo the achievable performance of each individual survey. The sample was subsequently classified into two groups: radio-loud active galactic nuclei (AGN) and galaxies where radio emission is predominantly driven by star formation. Classification was based on a galaxy's position in the 4000-Å break strength versus radio luminosity per unit stellar mass plane, resulting in a dataset of 2,215 radio-loud AGN and 497 star-forming galaxies with radio luminosity exceeding 5 mJy at 1.4 GHz.
-
-\begin{figure}[b]
+The obtained radio source sample demonstrated a completeness of $95\%$ and a reliability of $98.9\%$, upgrading the achievable performance of each individual survey. The sample was subsequently classified into two groups: radio-loud active galactic nuclei (AGN) and galaxies where radio emission is predominantly driven by star formation. Classification was based on a galaxy's position in the 4000-Å break strength versus radio luminosity per unit stellar mass plane, resulting in a dataset of 2,215 radio-loud AGN and 497 star-forming galaxies with radio luminosity exceeding 5 mJy at 1.4 GHz.
+\vspace{3cm}
+\begin{figure}[hbtp]
   \centering
-  \includegraphics[width=0.55\textwidth]{SDSS}
+  \includegraphics[width=0.8\textwidth]{SDSS}
   \caption{The main 2.5-meter SDSS Telescope }
   \label{3}
 \end{figure}
@@ -79,13 +79,137 @@ The obtained radio source sample demonstrated a completeness of $95\%$ and a rel
 
 \newpage
 \section{Data Analysis}
-How we analyzed the data, where do we defined the fractions calculated ?
+As previously introduced, our primary galaxy sample for astrometry measurements is the MPA-JHU SDSS-derived catalogue.
+
+The first operation required for the development of our study involved crossmatching the C4 BCG sample \cite{2009yCat..73790867V} to extract data files from the main sample, including both BCGs and non-BCGs.
+
+This initial crossmatch was accomplished by selecting the nearest element within a radius of 2 arcsec in both RA and Dec corresponding to each of the BCGs in \cite{2009yCat..73790867V}. The result was a list of 484 corresponding selected elements.
+
+At the end of this initial phase, the following data were collected for both samples:
+\begin{itemize}
+    \item \textbf{Astrometry data:} Celestial coordinates, Redshift, Error on redshift...
+    \item \textbf{Spectroscopy measures:} Emission lines' fluxes and their relative errors
+\end{itemize}
+
+Even though further explanation is to follow, it is preferable to introduce the second crossmatch required for this work, this time with the 2712 galaxy samples of Celestial Objects found to be active in the radio field.
+
+In this case, the research algorithm was designed to identify the nearest correspondence within a radius of 5 arcsec. The previously created files were appropriately updated by adding a specific flag, denoted as 1, to indicate whether, when found in the Radio Sample, it implies Radio Loud Emission.
+
 \subsection{Optical analysis}
-Describe each population of the BPT diagram and its peculiarities, before starting the description of how we collected and processed the data to finally create BPT diagrams .
-Finally there's the need to explain how we interpreted the diagrams to finally calculate the fractions ( in this case you need to explain which algorithm has been chosen and why ) 
+After previously introducing the defining properties of an AGN and discussing their effects on the host galaxy, it is crucial for the subsequent optical analysis of our two samples to examine which selected objects exhibit typical properties intrinsic to the presence of an AGN. One of the primary methods employed in Astrophysics is the analysis of BPT diagnostic diagrams \cite{1981PASP...93....5B}.
+
+This type of analysis classifies different species of galaxies by scrutinizing specific ratios of emission lines produced by ionizing gas in the galaxy's Interstellar Medium (ISM), utilizing photoionization models. These specific ratios have been carefully chosen to prioritize similar wavelength fractions, minimizing dust attenuation. Specifically, this is developed based on the following ratios:
+\begin{multicols}{2}
+\begin{itemize}
+    \item \textbf{$\frac{[OIII]\lambda 5007}{H\beta}$}
+    \item \textbf{$\frac{[NII]\lambda 6583}{H\alpha}$}
+    \item \textbf{$\frac{[SII]\lambda\lambda 6716,6731}{H\alpha}$}
+    \item \textbf{$\frac{[OI]\lambda 6300}{H\alpha}$}
+\end{itemize}
+\end{multicols}
+
+By examining these ratios, which provide evidence of different photoionization models, it is possible to draw demarcation lines and ultimately classify the final objects into different categories.
+
+The underlying concept of this method is rooted in an intrinsic property of the ionization spectrum of massive stars near the Lyman limit of Helium, found at $\lambda = 228\AA$. Massive stars exhibit a bright cut, while the non-thermal radiation of AGNs extends to higher energies. 
+
+As a result, AGN host galaxies typically show greater ratios that surpass the demarcation lines predicted by photoionization models.
+
+There were several photoionization models at the inception of this technique; nowadays, the preferred ones are Kauffmann et al. \cite{2003MNRAS.346.1055K} and Kewley et al. \cite{2001ApJ...556..121K}.
+
+While the ideal classification incorporates all three primary BPT diagnostics, this study relies on a classification derived solely from the BPT diagrams for [NII] and [SII].
+
+\begin{itemize}
+    \item \textbf{BPT-[NII] Demarcation Functions:}
+    \begin{itemize}
+        \item Kauffmann+03 Line: \[ \text{log}(\frac{\text{[OIII]}}{\text{H}\beta}) = 0.61 / (\text{log}(\frac{\text{[NII]}}{\text{H}\alpha}) - 0.05) + 1.3 \]
+        \item Kewley+01 Line: \[ \text{log}(\frac{\text{[OIII]}}{\text{H}\beta}) = 0.61 / (\text{log}(\frac{\text{[NII]}}{\text{H}\alpha}) - 0.47) + 1.19 \]
+    \end{itemize}
+
+    \item \textbf{BPT-[SII] Demarcation Functions:}
+    \begin{itemize}
+        \item Main AGN Line: \[ \text{log}(\frac{\text{[OIII]}}{\text{H}\beta}) = 0.72 / (\text{log}(\frac{\text{[SII]}}{\text{H}\alpha}) - 0.32) + 1.30 \]
+        \item LINER/Sy2 Line: \[ \text{log}(\frac{\text{[OIII]}}{\text{H}\beta}) = 1.89 \text{log}(\frac{\text{[SII]}}{\text{H}\alpha}) + 0.76 \]
+    \end{itemize}
+\end{itemize}
+
+As follows it is presented a brief description of each population:
+
+\begin{itemize}
+    \item \textbf{BPT-[NII]:}
+
+		\begin{itemize}
+    		\item \textbf{Star-forming (SF):} Below both of the demarcation lines, where the ionization is primarily from massive stars.
+    		\item \textbf{AGN (Active Galactic Nuclei):} Above both of the demarcation lines, delineating ionization by an active nucleus.
+    		\item \textbf{Composite:} Galaxies exhibiting a mix of both star-forming and AGN characteristics. Generally recognized to be in the area between both of the demarcation lines.
+		\end{itemize}
+
+		\item \textbf{BPT-[SII]:}
+	\begin{itemize}
+    		\item \textbf{Seyferts:} Above of both of the demarcation lines, characterized by high ionization levels.
+    		\item \textbf{LINERs (Low-Ionization Nuclear Emission Regions):} Above the Main AGN line, and below LINER/Sy2.  Typically characterized by weak AGN-like ionization.
+    		\item \textbf{Star-forming HII2:} Galaxies exhibiting ionization characteristics similar to HII regions in star-forming galaxies.
+		\end{itemize}
+
+\end{itemize}
 
 
+Returning to the methodology employed in this thesis, an initial screening process was conducted to exclude objects with flux values that rendered logarithmic ratios incalculable, specifically eliminating instances with numerators or denominators equal to zero. Subsequently, scatterplots were generated and demarcation lines were applied to discern distinct galaxy populations.
+Results images can be seen in :
+
+\autoref{4} \autoref{5} \autoref{6} \autoref{7}
+
+Given the inclusion of error values for each flux measurement, a robust bootstrap algorithm was implemented through 5000 iterations. This algorithm introduced variations to each point on the diagnostic diagram in two dimensions based on its probability distribution, with the mean value reflecting the error-free point and a standard deviation equivalent to the error associated with the point in both directions.
+
+This rigorous approach facilitated an accurate determination of counts and fractions for all populations, providing a statistically refined measure of uncertainty.
+\vspace{2cm}
+\begin{figure}[hbtp]
+  \centering
+  \includegraphics[width=0.65\textwidth]{BCG-NII-V22}
+  \caption{BPT NII for the BCG sample }
+  \label{4}
+\end{figure}
+
+\begin{figure}[hbtp]
+  \centering
+  \includegraphics[width=0.65\textwidth]{BCG-SII1731-V22}
+  \caption{BPT SII for the BCG sample }
+  \label{5}
+\end{figure}
+
+
+\begin{figure}[hbtp]
+  \centering
+  \includegraphics[width=0.7\textwidth]{SDSS-NII-V22}
+  \caption{BPT NII for the SDSS noBCG sample }
+  \label{6}
+\end{figure}
+
+\begin{figure}[hbtp]
+  \centering
+  \includegraphics[width=0.7\textwidth]{SDSS-NII-V22}
+  \caption{BPT SII for the SDSS noBCG sample }
+  \label{7}
+\end{figure}
+
+\newpage
 \subsection{Radio Analysis}
-I certainly need to focus on how i have chosen the range of identification, to recognize which element of sdss was effectively recognized as a Radioloud.
 
-Following to this it is necessary to explain how we selected the elements in which define the fractions, by selecting elements of SDSS nearby the location in which best et al finds mostly its radio-emitting elements!
+Following the preceding analyses, let's now detail how the fractions of Radio Loud AGNs were calculated for the two derived samples.
+
+The primary goal of this analysis segment is to determine a fraction of the form :
+ $$\frac{N_{\text{radio}}}{N_{\text{total}}}$$
+
+A crucial step in calculating a representative fraction of Radio Loud objects was to appropriately define the spatial regions for the fraction calculations. To accomplish this, we identified the regions mapped by the radio survey employed. Subsequently, the selection has been delineated where all three catalogs exhibited an overlap. It is essential to emphasize that the primary objective is to obtain representative fractions for both of our samples.
+
+The selected spatial regions considered for calculating the fractions of Radio Loud objects can be found in \autoref{8}
+
+\vspace{2cm}
+\begin{figure}[hbtp]
+  \centering
+  \includegraphics[width=0.9\textwidth]{Fourth}
+  \caption{Defining Regions of Radio Loud AGN fractions }
+  \label{8}
+\end{figure}
+
+
+ 

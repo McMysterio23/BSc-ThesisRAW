@@ -14,45 +14,45 @@ I'm skipping whatever remains of this command
 Database file #1: articoli.bib
 Warning--entry type for "2009yCat..73790867V" isn't style-file defined
 --line 464 of file articoli.bib
-You've used 25 entries,
+You've used 27 entries,
             2481 wiz_defined-function locations,
-            758 strings with 9452 characters,
-and the built_in function-call counts, 9649 in all, are:
-= -- 862
-> -- 419
-< -- 21
-+ -- 166
-- -- 116
-* -- 812
-:= -- 1532
-add.period$ -- 100
-call.type$ -- 25
-change.case$ -- 50
-chr.to.int$ -- 25
-cite$ -- 25
-duplicate$ -- 470
-empty$ -- 896
-format.name$ -- 179
-if$ -- 2074
+            773 strings with 9753 characters,
+and the built_in function-call counts, 10463 in all, are:
+= -- 938
+> -- 449
+< -- 23
++ -- 178
+- -- 124
+* -- 882
+:= -- 1656
+add.period$ -- 108
+call.type$ -- 27
+change.case$ -- 54
+chr.to.int$ -- 27
+cite$ -- 27
+duplicate$ -- 508
+empty$ -- 974
+format.name$ -- 193
+if$ -- 2252
 int.to.chr$ -- 1
-int.to.str$ -- 26
-missing$ -- 24
-newline$ -- 158
-num.names$ -- 75
-pop$ -- 155
+int.to.str$ -- 28
+missing$ -- 26
+newline$ -- 170
+num.names$ -- 81
+pop$ -- 167
 preamble$ -- 1
-purify$ -- 25
+purify$ -- 27
 quote$ -- 0
-skip$ -- 266
+skip$ -- 288
 stack$ -- 0
-substring$ -- 443
-swap$ -- 75
+substring$ -- 495
+swap$ -- 81
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 175
+type$ -- 189
 warning$ -- 0
-while$ -- 72
+while$ -- 78
 width$ -- 0
-write$ -- 381
+write$ -- 411
 (There was 1 error message)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  6 MAR 2024 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  6 MAR 2024 19:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -793,24 +793,30 @@ been already used, duplicate ignored
                    \relax 
 l.14 
       [3]
-<UnifiedAGNmodel.png, id=189, 505.89pt x 466.74374pt>
+<UnifiedAGNmodel.png, id=198, 505.89pt x 466.74374pt>
 File: UnifiedAGNmodel.png Graphic file (type png)
 <use UnifiedAGNmodel.png>
-Package pdftex.def Info: UnifiedAGNmodel.png  used on input line 19.
+Package pdftex.def Info: UnifiedAGNmodel.png  used on input line 33.
 (pdftex.def)             Requested size: 180.0pt x 166.06908pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 T
-      he energy released during the accretion process of a SMBH plays a sign...
-[4 <./UnifiedAGNmodel.png>]
-Overfull \hbox (3.38843pt too wide) in paragraph at lines 44--45
+l.45 T
+      wo distinct AGN feedback mechanisms have been proposed, each associate...
+[4]
+Overfull \hbox (3.38843pt too wide) in paragraph at lines 48--49
 \OT1/cmr/m/n/10.95 hot-ter gas hap-pens with a low rate in a optically-thin and
  geometrically-
  []
 
-[5] [6]) [7]
+[5 <./UnifiedAGNmodel.png>]
+Overfull \hbox (8.49834pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10.95 lower ve-loc-ity dis-per-sions and larger radii than pre-dic
+ted by the Faber{Jackson
+ []
+
+[6]) [7]
 \openout2 = `capitolo_2.aux'.
 
  (./capitolo_2.tex [8
@@ -825,11 +831,11 @@ Underfull \vbox (badness 7291) has occurred while \output is active []
 
  [9]
 [10] [11] [12]
-<SDSS.png, id=267, 596.2275pt x 449.68pt>
+<SDSS.png, id=282, 462.528pt x 346.896pt>
 File: SDSS.png Graphic file (type png)
 <use SDSS.png>
 Package pdftex.def Info: SDSS.png  used on input line 74.
-(pdftex.def)             Requested size: 288.0011pt x 217.2094pt.
+(pdftex.def)             Requested size: 288.0011pt x 216.01018pt.
  [13 <./SDSS.png>] [14]
 
 LaTeX Warning: Command \r invalid in math mode on input line 113.
@@ -840,18 +846,18 @@ Overfull \hbox (12.2739pt too wide) in paragraph at lines 149--150
 /cmr/m/n/10.95 Above
  []
 
-<BCG-NII-V22.png, id=295, 462.528pt x 346.896pt>
+<BCG-NII-V22.png, id=310, 462.528pt x 346.896pt>
 File: BCG-NII-V22.png Graphic file (type png)
 <use BCG-NII-V22.png>
 Package pdftex.def Info: BCG-NII-V22.png  used on input line 167.
 (pdftex.def)             Requested size: 233.9978pt x 175.50133pt.
 [16]
-<BCG-SII1731-V22.png, id=304, 462.528pt x 346.896pt>
+<BCG-SII1731-V22.png, id=319, 462.528pt x 346.896pt>
 File: BCG-SII1731-V22.png Graphic file (type png)
 <use BCG-SII1731-V22.png>
 Package pdftex.def Info: BCG-SII1731-V22.png  used on input line 174.
 (pdftex.def)             Requested size: 233.9978pt x 175.50133pt.
-<SDSS-NII-V22.png, id=305, 462.528pt x 346.896pt>
+<SDSS-NII-V22.png, id=320, 462.528pt x 346.896pt>
 File: SDSS-NII-V22.png Graphic file (type png)
 <use SDSS-NII-V22.png>
 Package pdftex.def Info: SDSS-NII-V22.png  used on input line 182.
@@ -861,7 +867,7 @@ File: SDSS-NII-V22.png Graphic file (type png)
 Package pdftex.def Info: SDSS-NII-V22.png  used on input line 189.
 (pdftex.def)             Requested size: 251.9989pt x 188.99898pt.
  [17 <./BCG-NII-V22.png> <./BCG-SII1731-V22.png>] [18 <./SDSS-NII-V22.png>]
-<Fourth.png, id=320, 462.528pt x 346.896pt>
+<Fourth.png, id=334, 462.528pt x 346.896pt>
 File: Fourth.png Graphic file (type png)
 <use Fourth.png>
 Package pdftex.def Info: Fourth.png  used on input line 209.
@@ -899,56 +905,44 @@ Underfull \hbox (badness 1226) in paragraph at lines 137--142
 y
  []
 
-[27])
+[27] [28])
 
 Package caption Warning: Unused \captionsetup[sub] on input line 40.
 See the caption package documentation for explanation.
 
-[28] (./Tesi.aux (./Abstract.aux) (./capitolo_1.aux) (./capitolo_2.aux)
+[29] (./Tesi.aux (./Abstract.aux) (./capitolo_1.aux) (./capitolo_2.aux)
 (./capitolo_3.aux) (./conclusioni.aux))
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `Tesi.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Tesi.out':
-(rerunfilecheck)             Before: 296321918A2E6A998DD4434CC3CC47A0;2089
-(rerunfilecheck)             After:  29A39F116DD913A89B084A9678D4E3AE;2089.
+Package rerunfilecheck Info: File `Tesi.out' has not changed.
+(rerunfilecheck)             Checksum: 29A39F116DD913A89B084A9678D4E3AE;2089.
  ) 
 Here is how much of TeX's memory you used:
- 15218 strings out of 478994
- 233980 string characters out of 5858184
- 672179 words of memory out of 5000000
- 32316 multiletter control sequences out of 15000+600000
+ 15247 strings out of 478994
+ 234747 string characters out of 5858184
+ 672474 words of memory out of 5000000
+ 32338 multiletter control sequences out of 15000+600000
  410454 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,17n,89p,987b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.caption.11} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.10} has been referenced but does not
- exist, replaced by a fixed one
-
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Tesi.pdf (32 pages, 3140763 bytes).
+ 86i,17n,89p,987b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on Tesi.pdf (33 pages, 1866427 bytes).
 PDF statistics:
- 435 PDF objects out of 1000 (max. 8388607)
- 366 compressed objects within 4 object streams
- 90 named destinations out of 1000 (max. 500000)
+ 455 PDF objects out of 1000 (max. 8388607)
+ 385 compressed objects within 4 object streams
+ 97 named destinations out of 1000 (max. 500000)
  163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

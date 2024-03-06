@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  5 MAR 2024 20:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  6 MAR 2024 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -588,49 +588,69 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip70
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen199
+\lightrulewidth=\dimen256
+\cmidrulewidth=\dimen257
+\belowrulesep=\dimen258
+\belowbottomsep=\dimen259
+\aboverulesep=\dimen260
+\abovetopsep=\dimen261
+\cmidrulesep=\dimen262
+\cmidrulekern=\dimen263
+\defaultaddspace=\dimen264
+\@cmidla=\count329
+\@cmidlb=\count330
+\@aboverulesep=\dimen265
+\@belowrulesep=\dimen266
+\@thisruleclass=\count331
+\@lastruleclass=\count332
+\@thisrulewidth=\dimen267
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip71
 \bibsep=\skip72
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count329
-)
-(./Tesi.aux (./Abstract.aux) (./capitolo_1.aux) (./capitolo_2.aux)
-(./capitolo_3.aux) (./conclusioni.aux))
+\c@NAT@ctr=\count333
+) (./Tesi.aux
+(./Abstract.aux) (./capitolo_1.aux) (./capitolo_2.aux) (./capitolo_3.aux)
+(./conclusioni.aux))
 \openout1 = `Tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-\c@lstlisting=\count330
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+\c@lstlisting=\count334
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count331
-\scratchdimen=\dimen199
+\scratchcounter=\count335
+\scratchdimen=\dimen268
 \scratchbox=\box106
-\nofMPsegments=\count332
-\nofMParguments=\count333
+\nofMPsegments=\count336
+\nofMParguments=\count337
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count334
-\MPscratchDim=\dimen256
-\MPnumerator=\count335
-\makeMPintoPDFobject=\count336
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen269
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
 \everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -662,7 +682,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring OFF on input line 79.
+Package hyperref Info: Link coloring OFF on input line 82.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -674,60 +694,60 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count337
+\c@section@level=\count341
 )
-LaTeX Info: Redefining \ref on input line 79.
-LaTeX Info: Redefining \pageref on input line 79.
-LaTeX Info: Redefining \nameref on input line 79.
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
  (./Tesi.out) (./Tesi.out)
 \@outlinefile=\write3
 \openout3 = `Tesi.out'.
 
-</Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, id=68, 614.2
+</Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, id=60, 614.2
 95pt x 794.97pt>
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf  used on input line 106.
+spizio.pdf  used on input line 109.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf  used on input line 106.
+spizio.pdf  used on input line 109.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-</Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, id=71, page=
+</Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, id=63, page=
 1, 614.295pt x 794.97pt>
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 106.
+spizio.pdf , page1 used on input line 109.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 106.
+spizio.pdf , page1 used on input line 109.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 106.
+spizio.pdf , page1 used on input line 109.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 106.
+spizio.pdf , page1 used on input line 109.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf Graphic 
 file (type pdf)
 <use /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizio.pdf, page 1>
 Package pdftex.def Info: /Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/fronte
-spizio.pdf , page1 used on input line 106.
+spizio.pdf , page1 used on input line 109.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [1
 Non-PDF special ignored!
@@ -749,7 +769,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 \include{capitolo_1}
+l.113 \include{capitolo_1}
                            [1
 
 
@@ -771,46 +791,41 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.12 
+l.14 
       [3]
-<UnifiedAGNmodel.png, id=197, 505.89pt x 466.74374pt>
+<UnifiedAGNmodel.png, id=189, 505.89pt x 466.74374pt>
 File: UnifiedAGNmodel.png Graphic file (type png)
 <use UnifiedAGNmodel.png>
-Package pdftex.def Info: UnifiedAGNmodel.png  used on input line 17.
-(pdftex.def)             Requested size: 198.0011pt x 182.68454pt.
+Package pdftex.def Info: UnifiedAGNmodel.png  used on input line 19.
+(pdftex.def)             Requested size: 180.0pt x 166.06908pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 
-      [4]
-Overfull \hbox (3.38843pt too wide) in paragraph at lines 40--41
+l.34 T
+      he energy released during the accretion process of a SMBH plays a sign...
+[4 <./UnifiedAGNmodel.png>]
+Overfull \hbox (3.38843pt too wide) in paragraph at lines 44--45
 \OT1/cmr/m/n/10.95 hot-ter gas hap-pens with a low rate in a optically-thin and
  geometrically-
  []
 
-[5]
-<BCG.jpg, id=220, 803.0pt x 803.0pt>
-File: BCG.jpg Graphic file (type jpg)
-<use BCG.jpg>
-Package pdftex.def Info: BCG.jpg  used on input line 69.
-(pdftex.def)             Requested size: 180.0pt x 179.9933pt.
- [6]) [7] [8 <./UnifiedAGNmodel.png> <./BCG.jpg>]
+[5] [6]) [7]
 \openout2 = `capitolo_2.aux'.
 
- (./capitolo_2.tex
-Chapter 2.
-
-Underfull \vbox (badness 7291) has occurred while \output is active []
-
- [9
+ (./capitolo_2.tex [8
 
 
 
 
 ]
+Chapter 2.
+
+Underfull \vbox (badness 7291) has occurred while \output is active []
+
+ [9]
 [10] [11] [12]
-<SDSS.png, id=268, 596.2275pt x 449.68pt>
+<SDSS.png, id=267, 596.2275pt x 449.68pt>
 File: SDSS.png Graphic file (type png)
 <use SDSS.png>
 Package pdftex.def Info: SDSS.png  used on input line 74.
@@ -825,18 +840,18 @@ Overfull \hbox (12.2739pt too wide) in paragraph at lines 149--150
 /cmr/m/n/10.95 Above
  []
 
-<BCG-NII-V22.png, id=296, 462.528pt x 346.896pt>
+<BCG-NII-V22.png, id=295, 462.528pt x 346.896pt>
 File: BCG-NII-V22.png Graphic file (type png)
 <use BCG-NII-V22.png>
 Package pdftex.def Info: BCG-NII-V22.png  used on input line 167.
 (pdftex.def)             Requested size: 233.9978pt x 175.50133pt.
 [16]
-<BCG-SII1731-V22.png, id=305, 462.528pt x 346.896pt>
+<BCG-SII1731-V22.png, id=304, 462.528pt x 346.896pt>
 File: BCG-SII1731-V22.png Graphic file (type png)
 <use BCG-SII1731-V22.png>
 Package pdftex.def Info: BCG-SII1731-V22.png  used on input line 174.
 (pdftex.def)             Requested size: 233.9978pt x 175.50133pt.
-<SDSS-NII-V22.png, id=306, 462.528pt x 346.896pt>
+<SDSS-NII-V22.png, id=305, 462.528pt x 346.896pt>
 File: SDSS-NII-V22.png Graphic file (type png)
 <use SDSS-NII-V22.png>
 Package pdftex.def Info: SDSS-NII-V22.png  used on input line 182.
@@ -861,6 +876,11 @@ Package pdftex.def Info: Fourth.png  used on input line 209.
 
 ]
 Chapter 3.
+
+Overfull \hbox (36.6089pt too wide) in paragraph at lines 9--22
+ [][] 
+ []
+
 ) [21]
 \openout2 = `conclusioni.aux'.
 
@@ -874,7 +894,7 @@ Chapter 3.
 
 
 ] [25] [26]
-Underfull \hbox (badness 1226) in paragraph at lines 130--135
+Underfull \hbox (badness 1226) in paragraph at lines 137--142
 []\OT1/cmr/m/n/10.95 P. Oliva-Altamirano and Brough.  Galaxy And Mass As-sem-bl
 y
  []
@@ -889,34 +909,46 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: 61AB31F61AF4686127D8E3B47826DA83;2364.
+
+Package rerunfilecheck Warning: File `Tesi.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Tesi.out':
+(rerunfilecheck)             Before: 296321918A2E6A998DD4434CC3CC47A0;2089
+(rerunfilecheck)             After:  29A39F116DD913A89B084A9678D4E3AE;2089.
  ) 
 Here is how much of TeX's memory you used:
- 15142 strings out of 478994
- 232684 string characters out of 5858184
- 671128 words of memory out of 5000000
- 32250 multiletter control sequences out of 15000+600000
+ 15218 strings out of 478994
+ 233980 string characters out of 5858184
+ 672179 words of memory out of 5000000
+ 32316 multiletter control sequences out of 15000+600000
  410454 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,17n,89p,987b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Tesi.pdf (32 pages, 3288669 bytes).
+ 86i,17n,89p,987b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{table.caption.11} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.10} has been referenced but does not
+ exist, replaced by a fixed one
+
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on Tesi.pdf (32 pages, 3140763 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 353 compressed objects within 4 object streams
- 83 named destinations out of 1000 (max. 500000)
- 184 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 435 PDF objects out of 1000 (max. 8388607)
+ 366 compressed objects within 4 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

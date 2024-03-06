@@ -1,4 +1,4 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -51,6 +51,13 @@ D.~A. {Rafferty} and {McNamara}.
   Accretion and Starbursts in Cluster Central Dominant Galaxies}.
 \newblock \emph{\apj}, 652\penalty0 (1):\penalty0 216--231, November 2006.
 \newblock \doi{10.1086/507672}.
+
+\bibitem[{Stott} and {Hickox}(2012)]{2012MNRAS.422.2213S}
+John~P. {Stott} and {Hickox}.
+\newblock {The XMM Cluster Survey: the interplay between the brightest cluster
+  galaxy and the intracluster medium via AGN feedback}.
+\newblock \emph{\mnras}, 422\penalty0 (3):\penalty0 2213--2229, May 2012.
+\newblock \doi{10.1111/j.1365-2966.2012.20764.x}.
 
 \bibitem[{Fisek} and {Alis}(2019)]{2019CoBAO..66..153F}
 S.~{Fisek} and {Alis}.
@@ -144,6 +151,26 @@ C.~Megan {Urry} and Paolo {Padovani}.
 \newblock {Unified Schemes for Radio-Loud Active Galactic Nuclei}.
 \newblock \emph{\pasp}, 107:\penalty0 803, September 1995.
 \newblock \doi{10.1086/133630}.
+
+\bibitem[{Masoura} and {Mountrichas}(2021)]{2021A&A...646A.167M}
+V.~A. {Masoura} and {Mountrichas}.
+\newblock {Relation between AGN type and host galaxy properties}.
+\newblock \emph{\aap}, 646:\penalty0 A167, February 2021.
+\newblock \doi{10.1051/0004-6361/202039238}.
+
+\bibitem[{Di Matteo} and {Springel}(2005)]{2005Natur.433..604D}
+Tiziana {Di Matteo} and {Springel}.
+\newblock {Energy input from quasars regulates the growth and activity of black
+  holes and their host galaxies}.
+\newblock \emph{\nat}, 433\penalty0 (7026):\penalty0 604--607, February 2005.
+\newblock \doi{10.1038/nature03335}.
+
+\bibitem[{Gebhardt} and {Bender}(2000)]{2000ApJ...539L..13G}
+Karl {Gebhardt} and {Bender}.
+\newblock {A Relationship between Nuclear Black Hole Mass and Galaxy Velocity
+  Dispersion}.
+\newblock \emph{\apjl}, 539\penalty0 (1):\penalty0 L13--L16, August 2000.
+\newblock \doi{10.1086/312840}.
 
 \bibitem[{Wen} and {Han}(2015)]{2015MNRAS.448....2W}
 Z.~L. {Wen} and J.~L. {Han}.

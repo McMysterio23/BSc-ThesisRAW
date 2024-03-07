@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{44}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -254,6 +254,37 @@ L.~P. David, P.~E.~J. Nulsen, B.~R. McNamara, W.~Forman, C.~Jones, T.~Ponman,
   2001.
 \newblock \doi{10.1086/322250}.
 \newblock URL \url{https://dx.doi.org/10.1086/322250}.
+
+\bibitem[für Astrophysik(s.d.)]{mpa-sdss-dr7}
+Max-Planck-Institut für Astrophysik.
+\newblock Sdss data release 7, s.d.
+\newblock URL \url{https://wwwmpa.mpa-garching.mpg.de/SDSS/DR7/}.
+\newblock Accesso in data: \today.
+
+\bibitem[{Gunn}(2006)]{2006AJ....131.2332G}
+{Gunn}.
+\newblock {The 2.5 m Telescope of the Sloan Digital Sky Survey}.
+\newblock \emph{\aj}, 131\penalty0 (4):\penalty0 2332--2359, April 2006.
+\newblock \doi{10.1086/500975}.
+
+\bibitem[{Gunn}(1998)]{1998AJ....116.3040G}
+{Gunn}.
+\newblock {The Sloan Digital Sky Survey Photometric Camera}.
+\newblock \emph{\aj}, 116\penalty0 (6):\penalty0 3040--3081, December 1998.
+\newblock \doi{10.1086/300645}.
+
+\bibitem[{Blanton}(2003)]{2003AJ....125.2276B}
+{Blanton}.
+\newblock {An Efficient Targeting Strategy for Multiobject Spectrograph
+  Surveys: the Sloan Digital Sky Survey ``Tiling'' Algorithm}.
+\newblock \emph{\aj}, 125\penalty0 (4):\penalty0 2276--2286, April 2003.
+\newblock \doi{10.1086/344761}.
+
+\bibitem[{Stoughton}(2002)]{2002AJ....123..485S}
+{Stoughton}.
+\newblock {Sloan Digital Sky Survey: Early Data Release}.
+\newblock \emph{\aj}, 123\penalty0 (1):\penalty0 485--548, January 2002.
+\newblock \doi{10.1086/324741}.
 
 \bibitem[{Miller} and {Nichol}(2005)]{2005AJ....130..968M}
 Christopher~J. {Miller} and {Nichol}.

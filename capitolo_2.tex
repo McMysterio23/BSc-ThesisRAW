@@ -1,7 +1,23 @@
 \chapter{Methods}
- In this thesis, I analyze a dataset comprising the properties of a sample of galaxies from the Seventh Release of the Sloan Digital Sky Survey dataset, whose data 
+In this thesis, I analyze a dataset comprising the properties of a sample of galaxies from the Seventh Data Release (DR7) of the Sloan Digital Sky Survey. Covering 11,663 square degrees of imaging data, DR7 offers extensive five-band photometry for 357 million celestial objects \cite{2009ApJS..182..543A,mpa-sdss-dr7}. 
 
+With completed spectroscopy over 9380 square degrees, including 1.6 million spectra of galaxies, quasars, and stars, the SDSS DR7 dataset serves as the primary catalog for this study.
  
+Specifically i will focus on following physical properties : \textbf{Redshift} and \textbf{Integrated flux with their relative uncertainties} of the common optical lines (i.e. $H\alpha$, $H\beta$...).
+
+In the context of SDSS DR7, the line-fitting process is divided into three main stages during an automated Gaussian fitting procedure applied to continuum subtracted data as follows :
+\begin{enumerate}
+\item The first stage involves fitting to only emission lines, referred to as "foundLines," and is performed during the determination of emission line redshifts.
+
+\item The second stage, termed "measuredLines," represents the final fitting of all lines, including both emission and absorption lines. This stage occurs after the object has been classified, and the redshift has been determined.
+\end{enumerate}
+It is important to note that \textbf{each} line is \textbf{individually fitted as a single Gaussian} on the continuum-subtracted spectrum, with modalities shown in \cite{1994ApJ...422..158O}.
+
+For the latter Radio identification i also use photometric informations, as later presented.
+%FINO A QUI SOPRA SEMBRA OK 
+ 
+%COMMENTI DI ANDREA
+ \begin{comment}
  Specifically, I will focus on…. 
 
 
@@ -21,7 +37,8 @@ solitamente si usano righe come l’Hbeta o Halpha stretto. Ancora meglio righe 
 Poi dì anche che sfrutterai informazioni fotometriche nel radio.
 
 comunque andrai a parlarne dopo nel dettaglio 
-
+\end{comment}
+%VERSIONE INIZIALE CHE AVEVO MESSO IO
 \begin{comment}
 The study of cosmic objects, such as galaxies, relies on the analysis of the electromagnetic spectrum emanating from these distant sources. Within a spectrum, various pieces of information can be extracted, with the primary focus being on the intensity of light across a range of energies or frequencies. A crucial aspect of a spectrum involves determining the intensity at specific wavelengths.
 
@@ -36,31 +53,97 @@ On the other hand, photometry measures the overall brightness of celestial objec
 In this Thesis Work i'll be focusing on a Spectroscopic study involving the fluxes of the Forbidden Emission lines of the spectrum.
 \end{comment}
 
+
+
+%CAPITOLO DESCRIZIONE DEI SAMPLE UTILIZZATI
 \section{Data Description}
 This thesis presents results obtained through the cross-matching of three distinct celestial catalogues:
 \begin{itemize}
-	\item\textbf{SDSS DR7 :} Our Main Catalogue of galaxies
-	\item \textbf{C4-BCG :} The BCG Catalog 
-	\item \textbf{Radio Emitters :}  The survey chosen for RadioLoud identification
+	\item\textbf{SDSS DR7 :} Our Main Catalogue of galaxies \cite{2009ApJS..182..543A,mpa-sdss-dr7}
+	\item \textbf{C4-BCG :} The BCG Catalog \cite{2009yCat..73790867V}
+	\item \textbf{Radio Emitters :}  The survey chosen for RadioLoud identification \cite{2005MNRAS.362....9B}
 \end{itemize}
 
 \subsection{SDSS DR7}
-The SDSS project, or Sloan Digital Sky Survey, is a comprehensive astronomical survey that maps the universe by capturing images, spectra, and photometric data of celestial objects over a large area of the sky. \cite{2009ApJS..182..543A}
+The SDSS project, or Sloan Digital Sky Survey, is a comprehensive astronomical survey that maps the universe by capturing images, spectra, and photometric data of celestial objects over a large area of the sky, with a spectroscopic footprint area of 9'380 \text{$deg^2$} and an imaging surface covered of  11'663 \text{$deg^2$} \cite{2009ApJS..182..543A} as shown in \autoref{3}.
 
-Funding for the project has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Aeronautics and Space Administration, the National Science Foundation, the U.S. Department of Energy, the Japanese Monbukagakusho, and the Max Planck Society.
+Observations have been conducted using a a dedicated wide-field 2.5 m telescope \cite{2006AJ....131.2332G} located at Apache Point Observatory (APO) near Sacramento Peak in Southern New Mexico.
 
-This ambitious project marked its beginnings in 2000 with the goals of obtaining CCD imaging in five broad bands, covering an area of $10,000 \, \text{deg}^2$ of high latitude sky and spectroscopy data of a million galaxies and over 100'000 quasars over the same area.
+The telescope employs two distinct instruments, making possible both Imaging and Spectroscopy measures.
 
-Observations have been conducted using a a dedicated wide-field 2.5 m telescope (Gunn
-et al. 2006) located at Apache Point Observatory (APO) near Sacramento Peak in Southern New Mexico.
+Respectively, first measurements are carried out with a wide field imager composed by 24x 2048 × 2048 CCDs on the focal plane and described in \cite{1998AJ....116.3040G}.
+This photometric system comprises five color bands (u, g, r, i, and z) that divide the entire range from the atmospheric UV cutoff at 3000 $\AA$ to the sensitivity limit of silicon CCDs at 11000  $\AA$ into five essentially non overlapping passbands.
 
-The telescope employs two distinct instruments. The first is a wide-field imager equipped with 24 tiles, each containing a 2048x2048 CCD. Imaging is performed along great circles at the sidereal rate, leading to exposure times of 54.1 seconds.
+The detection limit, defined at a Signal-to-Noise ratio (S/N) of 5, is approximately u' = 22.1 mag, g' = 23.2 mag, r' = 23.1 mag, i' = 22.5 mag, and z' = 20.8 mag for stars.
+Achieving a higher S/N of 50:1 (corresponding to photometry at the $2\%$ level) occurs at magnitudes 19.1, 20.6, 20.4, 19.8, and 18.3 in the five bands, respectively.
+For typical galaxy images, the S/N reaches half a magnitude to a magnitude brighter at the faint end, depending on their surface brightness. \cite{1998AJ....116.3040G}
+
+Rather than calculating the point-spread function (PSF) from scratch, the authors opted to synthesize the PSF for each point in the sky. This was achieved by taking a suitably weighted sum of the PSFs output by the SDSS photometric pipeline from each of the individual runs. \cite{2009ApJS..182..543A}.
+
+On the other hand Spectroscopic Measurements are carried out with a pair of multiobject double spectrographs, receiving the light from 640 optical fiber.
+Targets of this subsequent measurements, are chosen based on previously captured photometric data, and arranged on tiles of \SI{1}{\degree49'} with centers chosen to maximize the number of targeted objects as described in Blanton at Al. \cite{2003AJ....125.2276B}
+
+Each of the spectrographs cover a wavelength range from 3800 $\AA$ to 9200 $\AA$ with a spectral resolution of $\frac{\lambda}{\Delta \lambda} \approx 2000$. \cite{2009ApJS..182..543A}
+\vspace{0.5cm}
+
+In this thesis, I work with a dataset of properties estimated by the Max Planck Institute for Astrophysics and Johns Hopkins University (MPA-JHU) team for a total of 927,552 galaxies belonging to the Sloan Digital Sky Survey Data Release 7 (SDSS DR7) \cite{2009ApJS..182..543A, mpa-sdss-dr7}.
+
+The main Physical Properties of Interest for our study, including \textbf{Redshift} and \textbf{Integrated flux with relative uncertainty} for common optical lines (i.e., $H\alpha$, $H\beta$) and molecular lines (i.e., [N II]6584, [O III]5007, [S II]6731, [S II]6716), are examined.
+
+These properties resulted from calculations of two automated spectroscopic pipelines :\textit{spectro2d} and \textit{spectro1d} \cite{2002AJ....123..485S}.
+
+The \textit{spectro2d} pipeline processes two-dimensional spectrograms from spectrographs, converting raw data and calibration images into merged, co-added, and calibrated spectra, along with noise estimates and mask arrays for subsequent analysis by the \textit{spectro1d} pipeline.
+
+The \textit{spectro1d} pipeline classifies spectra, determines emission and absorption redshifts, and measures lines. It produces the specObj class containing parameters for the entire spectrum and related information, including flux- and wavelength-calibrated spectra and continuum-subtracted spectra.
+
+\begin{comment}
+The spectroscopic pipelines, \textit{spectro2d} and \textit{spectro1d}, process two-dimensional spectrograms from the spectrographs, converting them into flux- and wavelength-calibrated spectra. These pipelines also handle the measurement of emission and absorption features, classification of spectra, and redshift determination. The \textit{spectro2d} pipeline reduces raw data from red and blue CCD cameras, producing merged, calibrated spectra for analysis by \textit{spectro1d}. All wavelengths are given in angstroms, vacuum-corrected to the heliocentric frame, with flux density in units of $10^{-17} \, \text{ergs} \, \text{cm}^{-2} \, \text{s}^{-1} \, \text{\AA}^{-1}$.
+
+The \textit{spectro1d} pipeline classifies spectra, determines emission and absorption redshifts, and measures lines. The specObj class contains parameters for the entire spectrum, including links to plate information, PhotoObj data, and related objects in SpecLine, SpecLineName, SpecLineIndex, CrossCorrelationRedshift, and EmissionRedshift tables. The pipeline also provides flux- and wavelength-calibrated spectra, continuum-subtracted spectra, 1 sigma error estimates per pixel, and mask arrays.
+
+The redshift calculation in the \textit{spectro2d} pipeline involves several distinct steps. Firstly, the pipeline analyzes combined spectra, determining object classifications and initial redshifts. This includes measurements of spectral lines and warning indicators. Emission and absorption redshifts are independently measured for each object to avoid biases.
+
+Continuum subtraction follows, where a fifth-order polynomial is used, and the fitted continuum is subtracted from the spectrum. Emission line redshifts are then determined by identifying lines through wavelet transform and performing Gaussian fits. The final emission-line redshift is chosen based on the highest confidence level.
+
+Spectra are cross-correlated with stellar, emission-line galaxy, and quasar templates to obtain cross-correlation redshifts. The redshift with the highest confidence level among all templates is chosen as the cross-correlation redshift.
+
+The final redshift is determined by choosing the highest confidence level between emission and cross-correlation redshifts. State and warning bits are assigned for the redshift, and objects are classified based on redshift and other features.
+\end{comment}
+
+\begin{comment}
+The main Physical Properties of Interest for our study are \textbf{Redshift} and \textbf{Integrated flux with relative uncertainty} regarding common optical lines (i.e. $H\alpha$, $H\beta$, also including molecular lines (i.e.  [N II]6584, [O III]5007, [S II]6731 [S II]6716]). 
+
+The spectroscopic pipelines , \textit{spectro2d} and \textit{spectro2d}, process two-dimensional spectrograms from the spectrographs, converting them into flux- and wavelength-calibrated spectra. These pipelines also handle the measurement of emission and absorption features, classification of spectra, and redshift determination. The \textit{spectro2d} pipeline reduces raw data from red and blue CCD cameras, producing merged, calibrated spectra for analysis by \textit{spectro2d}. All wavelengths are given in angstroms, vacuum-corrected to the heliocentric frame, with flux density in units of $10^{-17} \, \text{ergs} \, \text{cm}^{-2} \, \text{s}^{-1} \, \text{A}^{-1}$.
+
+The \textit{spectro1d} pipeline classifies spectra, determines emission and absorption redshifts, and measures lines. The specObj class contains parameters for the entire spectrum, including links to plate information, PhotoObj data, and related objects in SpecLine, SpecLineName, SpecLineIndex, CrossCorrelationRedshift, and EmissionRedshift tables. The pipeline also provides flux- and wavelength-calibrated spectra, continuum-subtracted spectra, 1 sigma error estimates per pixel, and mask arrays.
+
+The redshift calculation in the \textit{spectro2d} pipeline involves several distinct steps. Firstly, the pipeline analyzes combined spectra, determining object classifications and initial redshifts. This includes measurements of spectral lines and warning indicators. Emission and absorption redshifts are independently measured for each object to avoid biases.
+
+Continuum subtraction follows, where a fifth-order polynomial is used, and the fitted continuum is subtracted from the spectrum. Emission line redshifts are then determined by identifying lines through wavelet transform and performing Gaussian fits. The final emission-line redshift is chosen based on the highest confidence level.
+
+Spectra are cross-correlated with stellar, emission-line galaxy, and quasar templates to obtain cross-correlation redshifts. The redshift with the highest confidence level among all templates is chosen as the cross-correlation redshift.
+
+The final redshift is determined by choosing the highest confidence level between emission and cross-correlation redshifts. State and warning bits are assigned for the redshift, and objects are classified based on redshift and other features.
+\end{comment}
+
+%\vspace{1.5cm}
+\begin{figure}[hbtp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{SDSS_OFF}
+  \caption{Regions of the sky surveyed by SDSS Data Release 7 \cite{2009ApJS..182..543A}}
+  \label{3}
+\end{figure}
+
+
+\begin{comment}
+ The first is a wide-field imager equipped with 24 tiles, each containing a 2048x2048 CCD. Imaging is performed along great circles at the sidereal rate, leading to exposure times of 54.1 seconds.
 
 The astrometry is good to 45 milliarcseconds (mas) rms per coordinate at the bright end, while the photometric calibration is made in two modalities, respectively by tying to standard reference stars and by using the overlap between adjacent imaging runs in a process called ubercalibration.
 
 Spectra are extracted and calibrated in terms of wavelength and flux. For galaxies near the main sample flux limit, the typical signal-to-noise ratio (S/N) is 10 per pixel. The broadband spectrophotometric calibration exhibits an accuracy of $4\%$ root mean square (rms) for point sources (Adelman-McCarthy et al. 2008), and the wavelength calibration is precise to $2 \, \text{km s}^{-1}$.
 
 The SDSS data have been made public in a series of yearly data releases, This thesis works based its results from a galactic sample derived from "Data Release 7" by the Max Planck Institute for Astrophysics and Johns Hopkins University ( MPA-JHU )  teams, containing the derived properties of a total of 927'552 galaxy spectra.
+
 
 \textbf{Physical Properties of interest :}
 \begin{itemize}
@@ -69,7 +152,7 @@ The SDSS data have been made public in a series of yearly data releases, This th
 
 \end{itemize}
 
-\textbf{NOTA : Aggiungo un plot scat delle zone coperte da SDSS ?}
+\end{comment}
 
 
 \subsection{C4 BCG Catalogue}
@@ -93,14 +176,16 @@ To investigate the radio emission characteristics of both BCGs and non-BCGs, thi
 The NVSS was the first radio survey with a sufficiently high angular resolution (45 arcsec) to allow automated cross-correlation with optical surveys. However, the FIRST catalogue offers superior angular resolution (approximately 5 arcsec), resulting in samples with much higher reliability. Nonetheless, the high angular resolution of FIRST presents its own challenges, as it is insensitive to extended radio structures and resolves out the extended emission of radio sources. Consequently, the total radio luminosity of sources larger than a few arcseconds is systematically underestimated by FIRST. To address these limitations, a hybrid approach utilizing both NVSS and FIRST surveys has been developed to identify radio sources associated with galaxies in the SDSS spectroscopic sample. This approach capitalizes on the sensitivity of NVSS to large-scale radio structures and the high angular resolution of FIRST to reliably pinpoint the host galaxy.
 
 The obtained radio source sample demonstrated a completeness of $95\%$ and a reliability of $98.9\%$, upgrading the achievable performance of each individual survey. The sample was subsequently classified into two groups: radio-loud active galactic nuclei (AGN) and galaxies where radio emission is predominantly driven by star formation. Classification was based on a galaxy's position in the 4000-Å break strength versus radio luminosity per unit stellar mass plane, resulting in a dataset of 2,215 radio-loud AGN and 497 star-forming galaxies with radio luminosity exceeding 5 mJy at 1.4 GHz.
+
+\begin{comment}
 \vspace{3cm}
 \begin{figure}[hbtp]
   \centering
-  \includegraphics[width=0.8\textwidth]{SDSS}
+  \includegraphics[width=0.8\textwidth]{SDSS_OFF}
   \caption{Regions of the sky surveyed by SDSS Data Release 7}
   \label{3}
 \end{figure}
-
+\end{comment}
 
 \newpage
 \section{Data Analysis}

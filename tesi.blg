@@ -14,45 +14,47 @@ I'm skipping whatever remains of this command
 Database file #1: articoli.bib
 Warning--entry type for "2009yCat..73790867V" isn't style-file defined
 --line 464 of file articoli.bib
-You've used 39 entries,
+Warning--entry type for "mpa-sdss-dr7" isn't style-file defined
+--line 750 of file articoli.bib
+You've used 44 entries,
             2481 wiz_defined-function locations,
-            869 strings with 12148 characters,
-and the built_in function-call counts, 15060 in all, are:
-= -- 1339
-> -- 651
-< -- 34
-+ -- 260
-- -- 182
-* -- 1264
-:= -- 2394
-add.period$ -- 157
-call.type$ -- 39
-change.case$ -- 78
-chr.to.int$ -- 39
-cite$ -- 39
-duplicate$ -- 747
-empty$ -- 1401
-format.name$ -- 271
-if$ -- 3237
+            904 strings with 12840 characters,
+and the built_in function-call counts, 16808 in all, are:
+= -- 1505
+> -- 686
+< -- 39
++ -- 280
+- -- 192
+* -- 1393
+:= -- 2661
+add.period$ -- 177
+call.type$ -- 44
+change.case$ -- 88
+chr.to.int$ -- 44
+cite$ -- 44
+duplicate$ -- 837
+empty$ -- 1589
+format.name$ -- 286
+if$ -- 3620
 int.to.chr$ -- 1
-int.to.str$ -- 40
-missing$ -- 38
-newline$ -- 243
-num.names$ -- 119
-pop$ -- 243
+int.to.str$ -- 45
+missing$ -- 42
+newline$ -- 273
+num.names$ -- 134
+pop$ -- 279
 preamble$ -- 1
-purify$ -- 39
+purify$ -- 44
 quote$ -- 0
-skip$ -- 418
+skip$ -- 469
 stack$ -- 0
-substring$ -- 678
-swap$ -- 127
+substring$ -- 790
+swap$ -- 141
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 273
+type$ -- 308
 warning$ -- 0
-while$ -- 112
+while$ -- 126
 width$ -- 0
-write$ -- 594
+write$ -- 668
 (There was 1 error message)

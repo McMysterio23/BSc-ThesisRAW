@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  7 MAR 2024 21:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  9 MAR 2024 23:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -847,31 +847,24 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.14 
-      [3]
-<UnifiedAGNmodel.png, id=198, 505.89pt x 466.74374pt>
-File: UnifiedAGNmodel.png Graphic file (type png)
-<use UnifiedAGNmodel.png>
-Package pdftex.def Info: UnifiedAGNmodel.png  used on input line 33.
-(pdftex.def)             Requested size: 180.0pt x 166.06908pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
+      [3]pdfTeX warning (ext4): destination with the same identifier (name{page
+.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 T
-      wo distinct AGN feedback mechanisms have been proposed, each associate...
+l.29 	\item \textbf
+                   {QSO's Radiative Feedback :} This feedback mode, often re...
 [4]
-Overfull \hbox (3.38843pt too wide) in paragraph at lines 48--49
+Overfull \hbox (3.38843pt too wide) in paragraph at lines 30--31
 \OT1/cmr/m/n/10.95 hot-ter gas hap-pens with a low rate in a optically-thin and
  geometrically-
  []
 
-[5 <./UnifiedAGNmodel.png>]
-Overfull \hbox (8.49834pt too wide) in paragraph at lines 61--62
-\OT1/cmr/m/n/10.95 lower ve-loc-ity dis-per-sions and larger radii than pre-dic
-ted by the Faber{Jackson
- []
-
-[6]) [7]
+<UnifiedAGNmodel.png, id=216, 505.89pt x 466.74374pt>
+File: UnifiedAGNmodel.png Graphic file (type png)
+<use UnifiedAGNmodel.png>
+Package pdftex.def Info: UnifiedAGNmodel.png  used on input line 35.
+(pdftex.def)             Requested size: 180.0pt x 166.06908pt.
+[5 <./UnifiedAGNmodel.png>] [6]) [7]
 \openout2 = `capitolo_2.aux'.
 
  (./capitolo_2.tex [8
@@ -881,119 +874,131 @@ ted by the Faber{Jackson
 
 ]
 Chapter 2.
-[9]
-
-LaTeX Warning: Command \r invalid in math mode on input line 75.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 75.
-
-[10]
-
-LaTeX Warning: Command \r invalid in math mode on input line 86.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 86.
-
-<SDSS_OFF.png, id=288, 737.75626pt x 417.56pt>
-File: SDSS_OFF.png Graphic file (type png)
-<use SDSS_OFF.png>
-Package pdftex.def Info: SDSS_OFF.png  used on input line 132.
-(pdftex.def)             Requested size: 288.0011pt x 163.00064pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
-[12 <./SDSS_OFF.png>] [13] [14] [15]
+ [9]
 
-LaTeX Warning: Command \r invalid in math mode on input line 223.
+LaTeX Warning: Command \r invalid in math mode on input line 76.
 
-[16]
-Overfull \hbox (12.2739pt too wide) in paragraph at lines 259--260
+
+LaTeX Warning: Command \r invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 78.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 78.
+
+[10]
+<SDSS_OFF.png, id=289, 737.75626pt x 417.56pt>
+File: SDSS_OFF.png Graphic file (type png)
+<use SDSS_OFF.png>
+Package pdftex.def Info: SDSS_OFF.png  used on input line 119.
+(pdftex.def)             Requested size: 360.0pt x 203.7524pt.
+ [11 <./SDSS_OFF.png>] [12]
+
+LaTeX Warning: Command \r invalid in math mode on input line 168.
+
+[13]
+<BCGcmSDSS.png, id=319, 462.528pt x 346.896pt>
+File: BCGcmSDSS.png Graphic file (type png)
+<use BCGcmSDSS.png>
+Package pdftex.def Info: BCGcmSDSS.png  used on input line 195.
+(pdftex.def)             Requested size: 288.0011pt x 216.01018pt.
+
+Underfull \vbox (badness 5064) has occurred while \output is active []
+
+ [14 <./BCGcmSDSS.png>] [15]
+Overfull \hbox (12.2739pt too wide) in paragraph at lines 240--241
 []\OT1/cmr/bx/n/10.95 LINERs (Low-Ionization Nu-clear Emis-sion Re-gions): \OT1
 /cmr/m/n/10.95 Above
  []
 
-<BCG-NII-V22.png, id=340, 462.528pt x 346.896pt>
+
+LaTeX Warning: Command \r invalid in math mode on input line 248.
+
+[16]
+<BCG-NII-V22.png, id=348, 462.528pt x 346.896pt>
 File: BCG-NII-V22.png Graphic file (type png)
 <use BCG-NII-V22.png>
-Package pdftex.def Info: BCG-NII-V22.png  used on input line 277.
+Package pdftex.def Info: BCG-NII-V22.png  used on input line 283.
 (pdftex.def)             Requested size: 233.9978pt x 175.50133pt.
-[17]
 <BCG-SII1731-V22.png, id=349, 462.528pt x 346.896pt>
 File: BCG-SII1731-V22.png Graphic file (type png)
 <use BCG-SII1731-V22.png>
-Package pdftex.def Info: BCG-SII1731-V22.png  used on input line 284.
+Package pdftex.def Info: BCG-SII1731-V22.png  used on input line 290.
 (pdftex.def)             Requested size: 233.9978pt x 175.50133pt.
 <SDSS-NII-V22.png, id=350, 462.528pt x 346.896pt>
 File: SDSS-NII-V22.png Graphic file (type png)
 <use SDSS-NII-V22.png>
-Package pdftex.def Info: SDSS-NII-V22.png  used on input line 292.
+Package pdftex.def Info: SDSS-NII-V22.png  used on input line 298.
 (pdftex.def)             Requested size: 251.9989pt x 188.99898pt.
 File: SDSS-NII-V22.png Graphic file (type png)
 <use SDSS-NII-V22.png>
-Package pdftex.def Info: SDSS-NII-V22.png  used on input line 299.
+Package pdftex.def Info: SDSS-NII-V22.png  used on input line 305.
 (pdftex.def)             Requested size: 251.9989pt x 188.99898pt.
- [18 <./BCG-NII-V22.png> <./BCG-SII1731-V22.png>] [19 <./SDSS-NII-V22.png>]
-<Fourth.png, id=363, 462.528pt x 346.896pt>
+ [17] [18 <./BCG-NII-V22.png> <./BCG-SII1731-V22.png>] [19 <./SDSS-NII-V22.png>
+]
+<Fourth.png, id=371, 462.528pt x 346.896pt>
 File: Fourth.png Graphic file (type png)
 <use Fourth.png>
-Package pdftex.def Info: Fourth.png  used on input line 319.
+Package pdftex.def Info: Fourth.png  used on input line 325.
 (pdftex.def)             Requested size: 323.9978pt x 243.01079pt.
-) [20 <./Fourth.png>]
+) [20] [21 <./Fourth.png>]
 \openout2 = `capitolo_3.aux'.
 
- (./capitolo_3.tex
+ (./capitolo_3.tex [22
+
+
+
+
+]
 Chapter 3.
 
 Overfull \hbox (36.6089pt too wide) in paragraph at lines 9--22
  [][] 
  []
 
-) [21
-
-
-
-
-]
+) [23]
 \openout2 = `conclusioni.aux'.
 
- (./conclusioni.tex [22
+ (./conclusioni.tex [24
 
 
 
 
-]) [23] (./Tesi.bbl [24
+]) [25] (./Tesi.bbl [26
 
 
 
-] [25] [26]
+] [27] [28]
 Underfull \hbox (badness 1226) in paragraph at lines 137--142
 []\OT1/cmr/m/n/10.95 P. Oliva-Altamirano and Brough.  Galaxy And Mass As-sem-bl
 y
  []
 
-[27] [28])
+[29] [30])
 
 Package caption Warning: Unused \captionsetup[sub] on input line 41.
 See the caption package documentation for explanation.
 
-[29] (./Tesi.aux (./Abstract.aux) (./capitolo_1.aux) (./capitolo_2.aux)
+[31] (./Tesi.aux (./Abstract.aux) (./capitolo_1.aux) (./capitolo_2.aux)
 (./capitolo_3.aux) (./conclusioni.aux))
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: 29A39F116DD913A89B084A9678D4E3AE;2089.
+(rerunfilecheck)             Checksum: F12AA2BE2E2E0B84E4122855B56167B1;2716.
  ) 
 Here is how much of TeX's memory you used:
- 17601 strings out of 478994
- 302634 string characters out of 5858184
- 724342 words of memory out of 5000000
- 34662 multiletter control sequences out of 15000+600000
- 412372 words of font info for 59 fonts, out of 8000000 for 9000
+ 17613 strings out of 478994
+ 302960 string characters out of 5858184
+ 725002 words of memory out of 5000000
+ 34673 multiletter control sequences out of 15000+600000
+ 411695 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,17n,88p,987b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 81i,17n,88p,1005b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -1008,10 +1013,10 @@ l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Tesi.pdf (33 pages, 2308396 bytes).
+Output written on Tesi.pdf (35 pages, 2427422 bytes).
 PDF statistics:
- 485 PDF objects out of 1000 (max. 8388607)
- 412 compressed objects within 5 object streams
- 104 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 508 PDF objects out of 1000 (max. 8388607)
+ 428 compressed objects within 5 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

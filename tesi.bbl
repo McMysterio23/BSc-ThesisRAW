@@ -1,4 +1,4 @@
-\begin{thebibliography}{44}
+\begin{thebibliography}{46}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -259,7 +259,6 @@ L.~P. David, P.~E.~J. Nulsen, B.~R. McNamara, W.~Forman, C.~Jones, T.~Ponman,
 Max-Planck-Institut für Astrophysik.
 \newblock Sdss data release 7, s.d.
 \newblock URL \url{https://wwwmpa.mpa-garching.mpg.de/SDSS/DR7/}.
-\newblock Accesso in data: \today.
 
 \bibitem[{Gunn}(2006)]{2006AJ....131.2332G}
 {Gunn}.
@@ -272,6 +271,10 @@ Max-Planck-Institut für Astrophysik.
 \newblock {The Sloan Digital Sky Survey Photometric Camera}.
 \newblock \emph{\aj}, 116\penalty0 (6):\penalty0 3040--3081, December 1998.
 \newblock \doi{10.1086/300645}.
+
+\bibitem[sds()]{sdss-dr7-site}
+Sdss data release 7 main url.
+\newblock URL \url{http://classic.sdss.org/dr7/}.
 
 \bibitem[{Blanton}(2003)]{2003AJ....125.2276B}
 {Blanton}.
@@ -292,6 +295,16 @@ Christopher~J. {Miller} and {Nichol}.
   Digital Sky Survey}.
 \newblock \emph{\aj}, 130\penalty0 (3):\penalty0 968--1001, September 2005.
 \newblock \doi{10.1086/431357}.
+
+\bibitem[Best and Kauffmann(2005)]{10.1111/j.1365-2966.2005.09192.x}
+P.~N. Best and Kauffmann.
+\newblock {The host galaxies of radio-loud active galactic nuclei: mass
+  dependences, gas cooling and active galactic nuclei feedback}.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  362\penalty0 (1):\penalty0 25--40, 09 2005.
+\newblock ISSN 0035-8711.
+\newblock \doi{10.1111/j.1365-2966.2005.09192.x}.
+\newblock URL \url{https://doi.org/10.1111/j.1365-2966.2005.09192.x}.
 
 \bibitem[{Kauffmann} and {Heckman}(2003)]{2003MNRAS.346.1055K}
 Guinevere {Kauffmann} and {Heckman}.

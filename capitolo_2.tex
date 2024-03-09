@@ -1,19 +1,24 @@
 \chapter{Methods}
 In this thesis, I analyze a dataset comprising the properties of a sample of galaxies from the Seventh Data Release (DR7) of the Sloan Digital Sky Survey. Covering 11,663 square degrees of imaging data, DR7 offers extensive five-band photometry for 357 million celestial objects \cite{2009ApJS..182..543A,mpa-sdss-dr7}. 
 
-With completed spectroscopy over 9380 square degrees, including 1.6 million spectra of galaxies, quasars, and stars, the SDSS DR7 dataset serves as the primary catalog for this study.
- 
-Specifically i will focus on following physical properties : \textbf{Redshift} and \textbf{Integrated flux with their relative uncertainties} of the common optical lines (i.e. $H\alpha$, $H\beta$...).
+As shown in  \autoref{3}, the Legacy imaging footprint is depicted as the extensive contiguous gray area on the left side of the upper panel, complemented by three separated gray stripes visible on the right side.
 
-In the context of SDSS DR7, the line-fitting process is divided into three main stages during an automated Gaussian fitting procedure applied to continuum subtracted data as follows :
+With completed spectroscopy over 9380 square degrees, including 1.6 million spectra of galaxies, quasars, and stars, the SDSS DR7 dataset serves as the primary catalog for this study. A depiction of the spectroscopic coverage is shown in the lower panel of \autoref{3} 
+ 
+I will focus on following physical properties : \textbf{Redshift} and \textbf{Integrated flux with their relative uncertainties} of the common optical lines (i.e. $H\alpha$, $H\beta$...).
+
+In the context of SDSS DR7, these properties are calculated using an automated procedure of gaussian fitting, applied in two subsequent moments. In the first phase the object is classified and redshift is calculated by fitting at the same moment only the emission lines, while in the second part of the procedure this computation is extended to all lines available. It is important to note that \textbf{each} line is \textbf{individually fitted as a single Gaussian} on the continuum-subtracted spectrum, with modalities presented by O'Donnell \cite{1994ApJ...422..158O}. Information on the Radio classification of the galaxies in this sample is obtained from FIRST and NVSS images from Best et Al. \cite{2005MNRAS.362....9B}.
+
+\begin{comment}
+the line-fitting process is divided into three main stages during an automated Gaussian fitting procedure applied to continuum subtracted data as
 \begin{enumerate}
 \item The first stage involves fitting to only emission lines, referred to as "foundLines," and is performed during the determination of emission line redshifts.
 
 \item The second stage, termed "measuredLines," represents the final fitting of all lines, including both emission and absorption lines. This stage occurs after the object has been classified, and the redshift has been determined.
 \end{enumerate}
 It is important to note that \textbf{each} line is \textbf{individually fitted as a single Gaussian} on the continuum-subtracted spectrum, with modalities shown in \cite{1994ApJ...422..158O}.
+\end{comment}
 
-For the latter Radio identification i also use photometric informations, as later presented.
 %FINO A QUI SOPRA SEMBRA OK 
  
 %COMMENTI DI ANDREA
@@ -59,55 +64,37 @@ In this Thesis Work i'll be focusing on a Spectroscopic study involving the flux
 \section{Data Description}
 This thesis presents results obtained through the cross-matching of three distinct celestial catalogues:
 \begin{itemize}
-	\item\textbf{SDSS DR7 :} Our Main Catalogue of galaxies \cite{2009ApJS..182..543A,mpa-sdss-dr7}
-	\item \textbf{C4-BCG :} The BCG Catalog \cite{2009yCat..73790867V}
-	\item \textbf{Radio Emitters :}  The survey chosen for RadioLoud identification \cite{2005MNRAS.362....9B}
+	\item\textbf{SDSS DR7 :}  Main Catalogue of galaxies \cite{2009ApJS..182..543A,mpa-sdss-dr7}
+	\item \textbf{C4-BCG :}  BCG Catalog \cite{2009yCat..73790867V}
+	\item \textbf{Best at Al. :}   Survey for RadioLoud identification \cite{2005MNRAS.362....9B}
 \end{itemize}
 
 \subsection{SDSS DR7}
-The SDSS project, or Sloan Digital Sky Survey, is a comprehensive astronomical survey that maps the universe by capturing images, spectra, and photometric data of celestial objects over a large area of the sky, with a spectroscopic footprint area of 9'380 \text{$deg^2$} and an imaging surface covered of  11'663 \text{$deg^2$} \cite{2009ApJS..182..543A} as shown in \autoref{3}.
+The Sloan Digital Sky Survey (SDSS) project, is a comprehensive astronomical survey that maps the universe by capturing images, spectra, and photometric data of celestial objects over a large area of the sky, with a spectroscopic footprint area of 9'380 \text{$deg^2$} and an imaging surface covered of  11'663 \text{$deg^2$} \cite{2009ApJS..182..543A} as shown in \autoref{3}.
 
-Observations have been conducted using a a dedicated wide-field 2.5 m telescope \cite{2006AJ....131.2332G} located at Apache Point Observatory (APO) near Sacramento Peak in Southern New Mexico.
-
-The telescope employs two distinct instruments, making possible both Imaging and Spectroscopy measures.
-
-Respectively, first measurements are carried out with a wide field imager composed by 24x 2048 × 2048 CCDs on the focal plane and described in \cite{1998AJ....116.3040G}.
+Observations have been conducted using a a dedicated wide-field 2.5 m telescope \cite{2006AJ....131.2332G} located at Apache Point Observatory (APO) near Sacramento Peak in Southern New Mexico. The telescope employs two distinct instruments, making possible both Imaging and Spectroscopy measures. First measurements are carried out with a wide field imager composed by 24x 2048 × 2048 CCDs on the focal plane \cite{1998AJ....116.3040G}.
 This photometric system comprises five color bands (u, g, r, i, and z) that divide the entire range from the atmospheric UV cutoff at 3000 $\AA$ to the sensitivity limit of silicon CCDs at 11000  $\AA$ into five essentially non overlapping passbands.
 
-The detection limit, defined at a Signal-to-Noise ratio (S/N) of 5, is approximately u' = 22.1 mag, g' = 23.2 mag, r' = 23.1 mag, i' = 22.5 mag, and z' = 20.8 mag for stars.
-Achieving a higher S/N of 50:1 (corresponding to photometry at the $2\%$ level) occurs at magnitudes 19.1, 20.6, 20.4, 19.8, and 18.3 in the five bands, respectively.
-For typical galaxy images, the S/N reaches half a magnitude to a magnitude brighter at the faint end, depending on their surface brightness. \cite{1998AJ....116.3040G}
-
-Rather than calculating the point-spread function (PSF) from scratch, the authors opted to synthesize the PSF for each point in the sky. This was achieved by taking a suitably weighted sum of the PSFs output by the SDSS photometric pipeline from each of the individual runs. \cite{2009ApJS..182..543A}.
-
-On the other hand Spectroscopic Measurements are carried out with a pair of multiobject double spectrographs, receiving the light from 640 optical fiber.
-Targets of this subsequent measurements, are chosen based on previously captured photometric data, and arranged on tiles of \SI{1}{\degree49'} with centers chosen to maximize the number of targeted objects as described in Blanton at Al. \cite{2003AJ....125.2276B}
-
-Each of the spectrographs cover a wavelength range from 3800 $\AA$ to 9200 $\AA$ with a spectral resolution of $\frac{\lambda}{\Delta \lambda} \approx 2000$. \cite{2009ApJS..182..543A}
+Spectroscopic measurements are carried out with a pair of multiobject double spectrographs, receiving the light from 640 optical fibers, each of the spectrographs cover a wavelength range from 3800 $\AA$ to 9200 $\AA$ with a spectral resolution of $\frac{\lambda}{\Delta \lambda} \approx 2000$. \cite{2009ApJS..182..543A}
 \vspace{0.5cm}
 
 In this thesis, I work with a dataset of properties estimated by the Max Planck Institute for Astrophysics and Johns Hopkins University (MPA-JHU) team for a total of 927,552 galaxies belonging to the Sloan Digital Sky Survey Data Release 7 (SDSS DR7) \cite{2009ApJS..182..543A, mpa-sdss-dr7}.
 
-The main Physical Properties of Interest for our study, including \textbf{Redshift} and \textbf{Integrated flux with relative uncertainty} for common optical lines (i.e., $H\alpha$, $H\beta$) and molecular lines (i.e., [N II]6584, [O III]5007, [S II]6731, [S II]6716), are examined.
+The main Physical Properties of interest for this study are \textbf{Redshift} and \textbf{Integrated flux with relative uncertainty} for common optical lines (i.e., $H\alpha$, $H\beta$, [N II]6584, [O III]5007, [S II]6731, [S II]6716).
 
-These properties resulted from calculations of two automated spectroscopic pipelines :\textit{spectro2d} and \textit{spectro1d} \cite{2002AJ....123..485S}.
+These properties resulted from calculations of two automated spectroscopic pipelines : \textit{spectro2d} and \textit{spectro1d} \cite{2002AJ....123..485S}.
 
-The \textit{spectro2d} pipeline processes two-dimensional spectrograms from spectrographs, converting raw data and calibration images into merged, co-added, and calibrated spectra, along with noise estimates and mask arrays for subsequent analysis by the \textit{spectro1d} pipeline.
+ These pipeline analyzes combined spectra informations, determining object classifications and initial redshifts. Emission and absorption redshifts are independently measured for each object to avoid biases.
 
-The \textit{spectro1d} pipeline classifies spectra, determines emission and absorption redshifts, and measures lines. It produces the specObj class containing parameters for the entire spectrum and related information, including flux- and wavelength-calibrated spectra and continuum-subtracted spectra.
+Emission line redshifts are then determined by identifying lines through wavelet transform and performing Gaussian fits.
+The redshift that I use in this thesis is based on the the best-fit model of absorption and emission lines. 
 
 \begin{comment}
 The spectroscopic pipelines, \textit{spectro2d} and \textit{spectro1d}, process two-dimensional spectrograms from the spectrographs, converting them into flux- and wavelength-calibrated spectra. These pipelines also handle the measurement of emission and absorption features, classification of spectra, and redshift determination. The \textit{spectro2d} pipeline reduces raw data from red and blue CCD cameras, producing merged, calibrated spectra for analysis by \textit{spectro1d}. All wavelengths are given in angstroms, vacuum-corrected to the heliocentric frame, with flux density in units of $10^{-17} \, \text{ergs} \, \text{cm}^{-2} \, \text{s}^{-1} \, \text{\AA}^{-1}$.
 
 The \textit{spectro1d} pipeline classifies spectra, determines emission and absorption redshifts, and measures lines. The specObj class contains parameters for the entire spectrum, including links to plate information, PhotoObj data, and related objects in SpecLine, SpecLineName, SpecLineIndex, CrossCorrelationRedshift, and EmissionRedshift tables. The pipeline also provides flux- and wavelength-calibrated spectra, continuum-subtracted spectra, 1 sigma error estimates per pixel, and mask arrays.
 
-The redshift calculation in the \textit{spectro2d} pipeline involves several distinct steps. Firstly, the pipeline analyzes combined spectra, determining object classifications and initial redshifts. This includes measurements of spectral lines and warning indicators. Emission and absorption redshifts are independently measured for each object to avoid biases.
-
-Continuum subtraction follows, where a fifth-order polynomial is used, and the fitted continuum is subtracted from the spectrum. Emission line redshifts are then determined by identifying lines through wavelet transform and performing Gaussian fits. The final emission-line redshift is chosen based on the highest confidence level.
-
-Spectra are cross-correlated with stellar, emission-line galaxy, and quasar templates to obtain cross-correlation redshifts. The redshift with the highest confidence level among all templates is chosen as the cross-correlation redshift.
-
-The final redshift is determined by choosing the highest confidence level between emission and cross-correlation redshifts. State and warning bits are assigned for the redshift, and objects are classified based on redshift and other features.
+State and warning bits are assigned for the redshift, and objects are classified based on redshift and other features.
 \end{comment}
 
 \begin{comment}
@@ -129,8 +116,8 @@ The final redshift is determined by choosing the highest confidence level betwee
 %\vspace{1.5cm}
 \begin{figure}[hbtp]
   \centering
-  \includegraphics[width=0.8\textwidth]{SDSS_OFF}
-  \caption{Regions of the sky surveyed by SDSS Data Release 7 \cite{2009ApJS..182..543A}}
+  \includegraphics[width=1\textwidth]{SDSS_OFF}
+  \caption{Distribution on the sky of the data included in DR7 (upper panel: imaging; lower panel: spectra), shown in an Aitoff equal-area projection in J2000 Equatorial Coordinates. The Galactic plane is the sinuous line that goes through each panel. \cite{2009ApJS..182..543A}}
   \label{3}
 \end{figure}
 
@@ -156,39 +143,66 @@ The SDSS data have been made public in a series of yearly data releases, This th
 
 
 \subsection{C4 BCG Catalogue}
-The identification of BCGs within our primary galaxy sample, previously described, relies on the findings of A. Von der Linden et al. \cite{2007MNRAS.379..867V, 2009yCat..73790867V}. These findings were derived from a subsequent analysis of the C4 Galaxy Cluster Catalog, initially developed by Miller et al. in 2005 \cite{2005AJ....130..968M}.
+The identification of BCGs within our primary galaxy sample, previously described, relies on the BCG catalogue created by A. Von der Linden et al. \cite{2007MNRAS.379..867V, 2009yCat..73790867V}. This sample is derived from the further analysis of the C4 Galaxy Cluster Catalog,  developed by Miller et Al.  \cite{2005AJ....130..968M}.
 
-The C4 catalog comprises 748 galaxy clusters identified in the Second Data Release (DR2) of the Sloan Digital Sky Survey (SDSS). Utilizing a seven-dimensional position and color space, the C4 cluster-finding algorithm identifies overdensities. 
+The C4 catalog comprises 1106 galaxy clusters identified in the Third Data Release (DR3) of SDSS spanning redshifts from 0.02 to 0.16. 
 
-Covering approximately 2600 square degrees of the sky, the catalog spans redshifts from about 0.02 to 0.17. It includes various properties like sky location, mean redshift, galaxy membership, optical luminosity (Lr), velocity dispersion, and measures of substructure and large-scale environment.
+In this context, the work by Von Der Linden et al.  \cite{2007MNRAS.379..867V} is noteworthy, as it builds upon the C4 catalog but introduces improved procedures for BCG identification and cluster velocity dispersion measurements, ultimately yielding a sample of 625 BCGs.
 
-This catalog represents one of the initial cluster catalogs constructed directly from SDSS spectroscopic data, addressing issues related to projection effects and employing mock galaxy catalogs derived from realistic N-body simulations to analyze the clustering algorithm's parameters and improve its completeness.
+Despite primarily serving as a cluster catalogue, the original C4 also offered potential BCG candidates by identifying both a \textit{spectroscopic} candidate and a \textit{mean} candidate within each cluster. However, subsequent research conducted by Von Der Linden et al. revealed that approximately $30\%$ of identified clusters missed the true BCG due to fiber collisions in the SDSS spectrometry.
+To address this issue and to construct a specific BCG sample, Von der Linden's team initially limited the sample by imposing $z\leq 0.1$ in order to ensure that clusters span a large angular extent in comparison to the minimum distance between SDSS spectrometry fibres of $\sim55$ arcsec. 
+At this redshift, the magnitude limit in the red band of the spectroscopic sample is approximately $M_{r} \approx -20$, encompassing an initial sample of 833 clusters. The subsequent selection process involved a specific procedure including the estimation of the virial radius, the selection of the two brightest galaxies within the projection of the mean galaxy, and the application of criteria such as the concentration index and redshift/color compatibility for the final BCG identification.
+Throughout the computation, several galaxies were lost due to two main structural reasons : initial misclassification of stars and associations with multiple clusters. This led to the rejection of more than 101 clusters, leading to the final sample of 625 elements.
 
-In this context, the work by Von Der Linden et al.  \cite{2007MNRAS.379..867V} is noteworthy, as it builds upon the C4 catalog but introduces improved algorithms for BCG identification and measuring cluster velocity dispersion,  ultimately yielding a sample of 625 BCGs.
 
-Correcting for the SDSS photometric pipeline's tendency to underestimate luminosities in dense environments, the research refines the C4 galaxy cluster sample, addressing issues related to BCG luminosity underestimation. Given the challenges with SDSS photometry, especially for large galaxies in crowded areas, the study avoids using magnitude measurements assuming a specific profile shape.
-
-The C4 catalog provides potential BCG candidates, but approximately $30\% $ of clusters miss the true BCG due to fiber collisions. To address this issue,  Von der Linden's team developed an algorithm to identify the BCG by estimating the virial radius, selecting the two brightest galaxies within the mean galaxy's projection, and assessing criteria such as concentration index, color compatibility, and redshift.
 
 \subsection{The Radio Catalogue}
+
+I also exploit the radio catalog obtained from Best et al., containing 2712 radio sources selected as Radio loud and star-forming \cite{2005MNRAS.362....9B}. In order to study the fraction of the “BCG” and “non-BCG” samples it has been necessary to cross-match this catalog with that obtained from the match between SDSS and C4 in the previous section.
+The Authors created this survey from the cross-match of a main spectroscopic galaxy sample and two radio surveys: the National Radio Astronomy Observatories (NRAO) Very Large Array (VLA) Sky Survey (NVSS) \cite{1998AJ....115.1693C} and the Faint Images of the Radio Sky at Twenty centimeters (FIRST) \cite{1995ApJ...450..559B}.
+
+
+The NVSS was the first radio survey with an angular resolution of 45 arcsec. 
+The FIRST catalogue offers angular resolution of 5 arcsec. Nonetheless, the high angular resolution of FIRST presents its own challenges, as it is insensitive to extended radio structures and resolves out the extended emission of radio sources. Consequently, the total radio luminosity of sources larger than a few arcseconds is systematically underestimated by FIRST. To address these limitations, a hybrid approach utilizing both NVSS and FIRST surveys has been developed to identify radio sources associated with galaxies in the SDSS spectroscopic sample. This approach capitalizes on the sensitivity of NVSS to large-scale radio structures and the high angular resolution of FIRST to reliably pinpoint the host galaxy.
+
+The obtained radio source sample demonstrated a completeness of $95\%$ and a reliability of $98.9\%$, upgrading the achievable performance of each individual survey. The sample was subsequently classified into two groups: radio-loud active galactic nuclei (AGN) and galaxies where radio emission is predominantly driven by star formation. Classification was based on galaxies' positions in the plane of 4000 $\AA$ break strength versus radio luminosity per unit stellar mass, resulting in a dataset of 2,215 radio-loud AGN and 497 star-forming galaxies with radio luminosity exceeding 5 mJy at 1.4 GHz. \cite{2005MNRAS.362....9B, 10.1111/j.1365-2966.2005.09192.x}
+
+
+
+\begin{comment}
+This catalog is used to investigate the presence of radio counterpart of BCG and normal galaxies in the main SDSS catalogue, therefore, this is cross-matched with a main spectroscopic galaxy sample and two radio surveys: the National Radio Astronomy Observatories (NRAO) Very Large Array (VLA) Sky Survey (NVSS) \cite{1998AJ....115.1693C} and the Faint Images of the Radio Sky at Twenty centimeters (FIRST) survey \cite{1995ApJ...450..559B}.
+\end{comment}
+
+
+\begin{comment}
 To investigate the radio emission characteristics of both BCGs and non-BCGs, this study conducted a crossmatch between the primary SDSS sample and a dataset comprising 2,712 radio-luminous galaxies from the work by \cite{2005MNRAS.362....9B}. This collection of radio-luminous objects resulted from a complex cross-matching process involving the main spectroscopic galaxy sample and two radio surveys: the National Radio Astronomy Observatories (NRAO) Very Large Array (VLA) Sky Survey (NVSS) \cite{1998AJ....115.1693C} and the Faint Images of the Radio Sky at Twenty centimeters (FIRST) survey. \cite{1995ApJ...450..559B}
 
 The NVSS was the first radio survey with a sufficiently high angular resolution (45 arcsec) to allow automated cross-correlation with optical surveys. However, the FIRST catalogue offers superior angular resolution (approximately 5 arcsec), resulting in samples with much higher reliability. Nonetheless, the high angular resolution of FIRST presents its own challenges, as it is insensitive to extended radio structures and resolves out the extended emission of radio sources. Consequently, the total radio luminosity of sources larger than a few arcseconds is systematically underestimated by FIRST. To address these limitations, a hybrid approach utilizing both NVSS and FIRST surveys has been developed to identify radio sources associated with galaxies in the SDSS spectroscopic sample. This approach capitalizes on the sensitivity of NVSS to large-scale radio structures and the high angular resolution of FIRST to reliably pinpoint the host galaxy.
 
 The obtained radio source sample demonstrated a completeness of $95\%$ and a reliability of $98.9\%$, upgrading the achievable performance of each individual survey. The sample was subsequently classified into two groups: radio-loud active galactic nuclei (AGN) and galaxies where radio emission is predominantly driven by star formation. Classification was based on a galaxy's position in the 4000-Å break strength versus radio luminosity per unit stellar mass plane, resulting in a dataset of 2,215 radio-loud AGN and 497 star-forming galaxies with radio luminosity exceeding 5 mJy at 1.4 GHz.
-
-\begin{comment}
-\vspace{3cm}
-\begin{figure}[hbtp]
-  \centering
-  \includegraphics[width=0.8\textwidth]{SDSS_OFF}
-  \caption{Regions of the sky surveyed by SDSS Data Release 7}
-  \label{3}
-\end{figure}
 \end{comment}
 
 \newpage
 \section{Data Analysis}
+The initial step of the analysis involved cross-matching the catalog of galaxy properties from the MPA-JHU emission line analysis for the SDSS DR7 with the C4 BCG sample, presented in the previous chapter, in order to identify the BCG candidates. In particular, using coordinates of the galaxies in both these samples, I selected galaxies in the SDSS catalog closest to the individual BCGs in the C4 catalog, within a distance of less than 2 arcseconds (i.e. the PSF of 1.4 arcsec). 
+A distinct catalog was created for galaxies selected as “non-BCG”, which were exclusively chosen from within the cross-matched region of these surveys to minimize contamination from BCGs not included in the C4 catalog. 
+
+At the end, through this process, i obtained two distinct samples, each containing comprehensive spectral properties for a total of 404 and 389454 galaxies identified as BCG and non-BCG, respectively. 
+In \autoref{Cross:SDSS/C4} I report the distribution of galaxies from SDSS DR7 in grey and the BCGs identified from the crossmatch in red. The black dashed squares show the cross-matched area used to produce the BCG and non-BCG samples.
+
+\begin{figure}[hbtp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{BCGcmSDSS}
+  \caption{Distribution of data on the sky in J2000 Equatorial Coordinates. The grey areas represent galaxies included in the main sample \cite{mpa-sdss-dr7}, while BCGs identified through crossmatching are highlighted in red. Dashed lines delineate the regions used for constructing the non-BCG sample. }
+  \label{Cross:SDSS/C4}
+\end{figure}
+
+The final step in radio identification involves identifying galaxies exhibiting radio loud emission within both the BCG and non-BCG samples. This additional crossmatching process led to a refinement of the spatial regions, ensuring greater precision in excluding galaxies that may exhibit radio loudness but are not relevant to the radio survey under study. Based on the previously explained details regarding Radio survey's precision, galaxies displaying radio loudness were selected from the SDSS dataset within a distance of less than 5 arcsec. 
+
+At the end, through this process, i obtained two distinct samples, each containing both spectral properties and radio loud detections, for a total of 409 and 365666 galaxies identified as BCG and non-BCG, respectively. In \autoref{8} i report the refined space regions needed for the determination of the radio loud fractions, together with a visual depiction of the BCGs and the Radio Emitters identified by cross-matching the catalogues. 
+
+%% LA PARTE CHE AVEVO SCRITTO IO SULL'INTRODUZIONE AI DATI
+\begin{comment}
 As previously introduced, our primary galaxy sample for astrometry measurements is the MPA-JHU SDSS-derived catalogue.
 
 The first operation required for the development of our study involved crossmatching the C4 BCG sample \cite{2009yCat..73790867V} to extract data files from the main sample, including both BCGs and non-BCGs.
@@ -200,25 +214,36 @@ At the end of this initial phase, the following data were collected for both sam
     \item \textbf{Astrometry data:} Celestial coordinates, Redshift, Error on redshift...
     \item \textbf{Spectroscopy measures:} Emission lines' fluxes and their relative errors
 \end{itemize}
-
 Even though further explanation is to follow, it is preferable to introduce the second crossmatch required for this work, this time with the 2712 galaxy samples of Celestial Objects found to be active in the radio field.
 
 In this case, the research algorithm was designed to identify the nearest correspondence within a radius of 5 arcsec. The previously created files were appropriately updated by adding a specific flag, denoted as 1, to indicate whether, when found in the Radio Sample, it implies Radio Loud Emission.
+\end{comment}
+\subsection{Optical AGN Identification via BPT Diagram in BCG and non-BCG Samples}
+In this section, we present an analysis aimed at detecting AGN activity within the galaxies in both the "BCG" and "non-BCG" samples.
+To do it we use the Baldwin, Phillips $\&$ Terlevich (BPT) diagnostic diagram \cite{1981PASP...93....5B}.
+This analysis is widely performed in literature to classify various types of galaxies based on the ratio of certain optical emission lines emitted form the gas within the host-galaxy, known as the inter-stellar medium (ISM). According to photoionization models, these line ratios are significantly influenced by the properties of the gas and its ionization level.
+These specific ratios have been carefully chosen to prioritize similar wavelength fractions, minimizing dust attenuation. Specifically, this is developed based on the following ratios: \textbf{$\frac{[OIII]\lambda 5007}{H\beta}$}, \textbf{$\frac{[NII]\lambda 6583}{H\alpha}$}, \textbf{$\frac{[SII]\lambda\lambda 6716,6731}{H\alpha}$}, \textbf{$\frac{[OI]\lambda 6300}{H\alpha}$}.While the ideal classification incorporates all three primary BPT diagnostics, this study relies on a classification derived solely from the BPT diagrams for [NII] and [SII], based on the plot of $\frac{[OIII]\lambda 5007}{H\beta}$ versus  $\frac{[NII]\lambda 6583}{H\alpha}$ and $\frac{[NII]\lambda 6583}{H\alpha}$ versus $\frac{[SII]\lambda\lambda 6716,6731}{H\alpha}$, respectively.
+According to different photoionization models it is possible to draw demarcation lines, that allow to classify the final objects into different categories : 
 
-\subsection{Optical analysis}
-After previously introducing the defining properties of an AGN and discussing their effects on the host galaxy, it is crucial for the subsequent optical analysis of our two samples to examine which selected objects exhibit typical properties intrinsic to the presence of an AGN. One of the primary methods employed in Astrophysics is the analysis of BPT diagnostic diagrams \cite{1981PASP...93....5B}.
-
-This type of analysis classifies different species of galaxies by scrutinizing specific ratios of emission lines produced by ionizing gas in the galaxy's Interstellar Medium (ISM), utilizing photoionization models. These specific ratios have been carefully chosen to prioritize similar wavelength fractions, minimizing dust attenuation. Specifically, this is developed based on the following ratios:
-\begin{multicols}{2}
 \begin{itemize}
-    \item \textbf{$\frac{[OIII]\lambda 5007}{H\beta}$}
-    \item \textbf{$\frac{[NII]\lambda 6583}{H\alpha}$}
-    \item \textbf{$\frac{[SII]\lambda\lambda 6716,6731}{H\alpha}$}
-    \item \textbf{$\frac{[OI]\lambda 6300}{H\alpha}$}
-\end{itemize}
-\end{multicols}
+    \item \textbf{BPT-[NII]:}
 
-By examining these ratios, which provide evidence of different photoionization models, it is possible to draw demarcation lines and ultimately classify the final objects into different categories.
+		\begin{itemize}
+    		\item \textbf{Star-forming (SF):} where the ionization is primarily from massive stars.
+    		\item \textbf{AGN (Active Galactic Nuclei):} Above both of the demarcation lines, delineating ionization by an active nucleus.
+    		\item \textbf{Composite:} Galaxies exhibiting a mix of both star-forming and AGN characteristics, probably due to transition. Generally recognized to be in the area between both of the demarcation lines.
+		\end{itemize}
+
+		\item \textbf{BPT-[SII]:}
+	\begin{itemize}
+    		\item \textbf{Seyferts:} Above of both of the demarcation lines, characterized by high ionization levels.
+    		\item \textbf{LINERs (Low-Ionization Nuclear Emission Regions):} Above the Main AGN line, and below LINER/Sy2.  Typically characterized by weak AGN-like ionization.
+    		\item \textbf{Star-forming :} The primary source of ionization comes from the stars compounding the galaxy.
+		\end{itemize}
+
+\end{itemize}
+
+
 
 The underlying concept of this method is rooted in an intrinsic property of the ionization spectrum of massive stars near the Lyman limit of Helium, found at $\lambda = 228\AA$. Massive stars exhibit a bright cut, while the non-thermal radiation of AGNs extends to higher energies. 
 
@@ -242,25 +267,6 @@ While the ideal classification incorporates all three primary BPT diagnostics, t
     \end{itemize}
 \end{itemize}
 
-As follows it is presented a brief description of each population:
-
-\begin{itemize}
-    \item \textbf{BPT-[NII]:}
-
-		\begin{itemize}
-    		\item \textbf{Star-forming (SF):} Below both of the demarcation lines, where the ionization is primarily from massive stars.
-    		\item \textbf{AGN (Active Galactic Nuclei):} Above both of the demarcation lines, delineating ionization by an active nucleus.
-    		\item \textbf{Composite:} Galaxies exhibiting a mix of both star-forming and AGN characteristics. Generally recognized to be in the area between both of the demarcation lines.
-		\end{itemize}
-
-		\item \textbf{BPT-[SII]:}
-	\begin{itemize}
-    		\item \textbf{Seyferts:} Above of both of the demarcation lines, characterized by high ionization levels.
-    		\item \textbf{LINERs (Low-Ionization Nuclear Emission Regions):} Above the Main AGN line, and below LINER/Sy2.  Typically characterized by weak AGN-like ionization.
-    		\item \textbf{Star-forming HII2:} Galaxies exhibiting ionization characteristics similar to HII regions in star-forming galaxies.
-		\end{itemize}
-
-\end{itemize}
 
 
 Returning to the methodology employed in this thesis, an initial screening process was conducted to exclude objects with flux values that rendered logarithmic ratios incalculable, specifically eliminating instances with numerators or denominators equal to zero. Subsequently, scatterplots were generated and demarcation lines were applied to discern distinct galaxy populations.
@@ -302,7 +308,7 @@ This rigorous approach facilitated an accurate determination of counts and fract
 \end{figure}
 
 \newpage
-\subsection{Radio Analysis}
+\subsection{Radio AGN activity in BCG and non-BCG galaxies}
 
 Following the preceding analyses, let's now detail how the fractions of Radio Loud AGNs were calculated for the two derived samples.
 
@@ -317,7 +323,7 @@ The selected spatial regions considered for calculating the fractions of Radio L
 \begin{figure}[hbtp]
   \centering
   \includegraphics[width=0.9\textwidth]{Fourth}
-  \caption{Defining Regions of Radio Loud AGN fractions }
+  \caption{Distribution of data on the sky in J2000 Equatorial Coordinates. The grey areas depict galaxies included in the main sample \cite{mpa-sdss-dr7}, while BCGs identified through crossmatching are highlighted in red. Sources of radio emission found by Best et al. \cite{2005MNRAS.362....9B} are shown in orange. Dashed lines delineate the sky regions where the calculation of Radio Loud AGN fractions has been defined. }
   \label{8}
 \end{figure}
 

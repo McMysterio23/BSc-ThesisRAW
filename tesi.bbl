@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{50}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -272,17 +272,6 @@ Max-Planck-Institut für Astrophysik.
 \newblock \emph{\aj}, 116\penalty0 (6):\penalty0 3040--3081, December 1998.
 \newblock \doi{10.1086/300645}.
 
-\bibitem[sds()]{sdss-dr7-site}
-Sdss data release 7 main url.
-\newblock URL \url{http://classic.sdss.org/dr7/}.
-
-\bibitem[{Blanton}(2003)]{2003AJ....125.2276B}
-{Blanton}.
-\newblock {An Efficient Targeting Strategy for Multiobject Spectrograph
-  Surveys: the Sloan Digital Sky Survey ``Tiling'' Algorithm}.
-\newblock \emph{\aj}, 125\penalty0 (4):\penalty0 2276--2286, April 2003.
-\newblock \doi{10.1086/344761}.
-
 \bibitem[{Stoughton}(2002)]{2002AJ....123..485S}
 {Stoughton}.
 \newblock {Sloan Digital Sky Survey: Early Data Release}.
@@ -306,6 +295,13 @@ P.~N. Best and Kauffmann.
 \newblock \doi{10.1111/j.1365-2966.2005.09192.x}.
 \newblock URL \url{https://doi.org/10.1111/j.1365-2966.2005.09192.x}.
 
+\bibitem[Kewley and Groves(2006)]{2006MNRAS.372..961K}
+Lisa~J. Kewley and Groves.
+\newblock The host galaxies and classification of active galactic nuclei.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  372\penalty0 (3):\penalty0 961--976, November 2006.
+\newblock \doi{10.1111/j.1365-2966.2006.10859.x}.
+
 \bibitem[{Kauffmann} and {Heckman}(2003)]{2003MNRAS.346.1055K}
 Guinevere {Kauffmann} and {Heckman}.
 \newblock {The host galaxies of active galactic nuclei}.
@@ -317,5 +313,45 @@ L.~J. {Kewley} and {Dopita}.
 \newblock {Theoretical Modeling of Starburst Galaxies}.
 \newblock \emph{\apj}, 556\penalty0 (1):\penalty0 121--140, July 2001.
 \newblock \doi{10.1086/321545}.
+
+\bibitem[{Lopes} and {Ribeiro}(2017)]{2017MNRAS.472..409L}
+P.~A.~A. {Lopes} and {Ribeiro}.
+\newblock {NoSOCS in SDSS - VI. The environmental dependence of AGN in clusters
+  and field in the local Universe}.
+\newblock \emph{\mnras}, 472\penalty0 (1):\penalty0 409--418, November 2017.
+\newblock \doi{10.1093/mnras/stx2046}.
+
+\bibitem[{Hwang} et~al.(2012){Hwang}, {Park}, {Elbaz}, and
+  {Choi}]{2012A&A...538A..15H}
+H.~S. {Hwang}, C.~{Park}, D.~{Elbaz}, and Y.~Y. {Choi}.
+\newblock {Activity in galactic nuclei of cluster and field galaxies in the
+  local universe}.
+\newblock \emph{\aap}, 538:\penalty0 A15, February 2012.
+\newblock \doi{10.1051/0004-6361/201117351}.
+
+\bibitem[{Nagai} and {Onishi}(2019)]{2019ApJ...883..193N}
+H.~{Nagai} and {Onishi}.
+\newblock {The ALMA Discovery of the Rotating Disk and Fast Outflow of Cold
+  Molecular Gas in NGC 1275}.
+\newblock \emph{\apj}, 883\penalty0 (2):\penalty0 193, October 2019.
+\newblock \doi{10.3847/1538-4357/ab3e6e}.
+
+\bibitem[{Ciocan} et~al.(2021){Ciocan}, {Ziegler}, {Verdugo}, {Papaderos},
+  {Fogarty}, {Donahue}, and {Postman}]{2021A&A...649A..23C}
+B.~I. {Ciocan}, B.~L. {Ziegler}, M.~{Verdugo}, P.~{Papaderos}, K.~{Fogarty},
+  M.~{Donahue}, and M.~{Postman}.
+\newblock {The VLT-MUSE and ALMA view of the MACS 1931.8-2635 brightest cluster
+  galaxy}.
+\newblock \emph{\aap}, 649:\penalty0 A23, May 2021.
+\newblock \doi{10.1051/0004-6361/202040010}.
+
+\bibitem[Fabbiano and Paggi(2022)]{Fabbiano_2022}
+G.~Fabbiano and A.~Paggi.
+\newblock Jet–ism interaction in ngc 1167/b2 0258+35, an liner with an agn
+  past.
+\newblock \emph{The Astrophysical Journal}, 938\penalty0 (2):\penalty0 105, oct
+  2022.
+\newblock \doi{10.3847/1538-4357/ac8ff8}.
+\newblock URL \url{https://dx.doi.org/10.3847/1538-4357/ac8ff8}.
 
 \end{thebibliography}

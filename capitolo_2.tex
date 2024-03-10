@@ -3,7 +3,7 @@ In this thesis, I analyze a dataset comprising the properties of a sample of gal
 
 As shown in  \autoref{3}, the Legacy imaging footprint is depicted as the extensive contiguous gray area on the left side of the upper panel, complemented by three separated gray stripes visible on the right side.
 
-With completed spectroscopy over 9380 square degrees, including 1.6 million spectra of galaxies, quasars, and stars, the SDSS DR7 dataset serves as the primary catalog for this study. A depiction of the spectroscopic coverage is shown in the lower panel of \autoref{3} 
+With completed spectroscopy over 9380 square degrees, including 1.6 million spectra of galaxies, quasars, and stars, the SDSS DR7 dataset serves as the primary catalog for this study. A depiction of the spectroscopic coverage is shown in the lower panel of \autoref{3} .
  
 I will focus on following physical properties : \textbf{Redshift} and \textbf{Integrated flux with their relative uncertainties} of the common optical lines (i.e. $H\alpha$, $H\beta$...).
 
@@ -197,9 +197,8 @@ In \autoref{Cross:SDSS/C4} I report the distribution of galaxies from SDSS DR7 i
   \label{Cross:SDSS/C4}
 \end{figure}
 
-The final step in radio identification involves identifying galaxies exhibiting radio loud emission within both the BCG and non-BCG samples. This additional crossmatching process led to a refinement of the spatial regions, ensuring greater precision in excluding galaxies that may exhibit radio loudness but are not relevant to the radio survey under study. Based on the previously explained details regarding Radio survey's precision, galaxies displaying radio loudness were selected from the SDSS dataset within a distance of less than 5 arcsec. 
+The final step in radio identification involves identifying galaxies exhibiting radio loud emission within both the BCG and non-BCG samples. This additional crossmatching process led to a refinement of the spatial regions, ensuring greater precision in excluding galaxies that may exhibit radio loudness but are not relevant to the radio survey under study.
 
-At the end, through this process, i obtained two distinct samples, each containing both spectral properties and radio loud detections, for a total of 409 and 365666 galaxies identified as BCG and non-BCG, respectively. In \autoref{8} i report the refined space regions needed for the determination of the radio loud fractions, together with a visual depiction of the BCGs and the Radio Emitters identified by cross-matching the catalogues. 
 
 %% LA PARTE CHE AVEVO SCRITTO IO SULL'INTRODUZIONE AI DATI
 \begin{comment}
@@ -218,41 +217,40 @@ Even though further explanation is to follow, it is preferable to introduce the 
 
 In this case, the research algorithm was designed to identify the nearest correspondence within a radius of 5 arcsec. The previously created files were appropriately updated by adding a specific flag, denoted as 1, to indicate whether, when found in the Radio Sample, it implies Radio Loud Emission.
 \end{comment}
+
+
+
 \subsection{Optical AGN Identification via BPT Diagram in BCG and non-BCG Samples}
 In this section, we present an analysis aimed at detecting AGN activity within the galaxies in both the "BCG" and "non-BCG" samples.
 To do it we use the Baldwin, Phillips $\&$ Terlevich (BPT) diagnostic diagram \cite{1981PASP...93....5B}.
-This analysis is widely performed in literature to classify various types of galaxies based on the ratio of certain optical emission lines emitted form the gas within the host-galaxy, known as the inter-stellar medium (ISM). According to photoionization models, these line ratios are significantly influenced by the properties of the gas and its ionization level.
-These specific ratios have been carefully chosen to prioritize similar wavelength fractions, minimizing dust attenuation. Specifically, this is developed based on the following ratios: \textbf{$\frac{[OIII]\lambda 5007}{H\beta}$}, \textbf{$\frac{[NII]\lambda 6583}{H\alpha}$}, \textbf{$\frac{[SII]\lambda\lambda 6716,6731}{H\alpha}$}, \textbf{$\frac{[OI]\lambda 6300}{H\alpha}$}.While the ideal classification incorporates all three primary BPT diagnostics, this study relies on a classification derived solely from the BPT diagrams for [NII] and [SII], based on the plot of $\frac{[OIII]\lambda 5007}{H\beta}$ versus  $\frac{[NII]\lambda 6583}{H\alpha}$ and $\frac{[NII]\lambda 6583}{H\alpha}$ versus $\frac{[SII]\lambda\lambda 6716,6731}{H\alpha}$, respectively.
-According to different photoionization models it is possible to draw demarcation lines, that allow to classify the final objects into different categories : 
+This analysis is widely performed in literature to classify various types of galaxies based on the ratio of certain optical emission lines emitted from the gas within the host-galaxy, known as the inter-stellar medium (ISM). According to photoionization models, these line ratios are significantly influenced by the properties of the gas and its ionization level.
+These specific ratios have been carefully chosen to prioritize similar wavelength fractions, minimizing dust attenuation. Specifically, this is developed based on the following ratios: $$\textbf{$\frac{[OIII]\lambda 5007}{H\beta}$}, \textbf{$\frac{[NII]\lambda 6583}{H\alpha}$}, \textbf{$\frac{[SII]\lambda\lambda 6716,6731}{H\alpha}$}, \textbf{$\frac{[OI]\lambda 6300}{H\alpha}$}$$
+While the ideal classification incorporates all three primary BPT diagnostics, this study relies on a classification derived solely from the BPT diagrams for [NII] and [SII], based on the plot of $\frac{[OIII]\lambda 5007}{H\beta}$ versus  $\frac{[NII]\lambda 6583}{H\alpha}$ and $\frac{[NII]\lambda 6583}{H\alpha}$ versus $\frac{[SII]\lambda\lambda 6716,6731}{H\alpha}$, respectively.
+
+\newpage
+According to different photoionization models it is possible to draw demarcation lines, that allow to classify the final objects into different categories as suggested by \cite{2006MNRAS.372..961K}: 
 
 \begin{itemize}
     \item \textbf{BPT-[NII]:}
-
 		\begin{itemize}
-    		\item \textbf{Star-forming (SF):} where the ionization is primarily from massive stars.
-    		\item \textbf{AGN (Active Galactic Nuclei):} Above both of the demarcation lines, delineating ionization by an active nucleus.
-    		\item \textbf{Composite:} Galaxies exhibiting a mix of both star-forming and AGN characteristics, probably due to transition. Generally recognized to be in the area between both of the demarcation lines.
+    		 \item \textbf{AGN (Active Galactic Nuclei):} Galaxies dominating the upper-right part of the diagram are characterized by high [NII]/Halpha and [OIII]/Hbeta ratios suggesting that non-stellar processes play a crucial role in ionization.
+		  \item \textbf{Composite:} The intermediate region between star-forming and AGN-dominated areas is occupied by galaxies that show a combination of both star formation and AGN activity. Emission line ratios, including [NII]/Halpha and [OIII]/Hbeta, fall in intermediate ranges compared to pure star-forming or AGN-dominated regions.
+		\item \textbf{Star-forming (SF):} Galaxies residing in the lower-left portion of the diagram are primarily powered by ongoing star formation. These regions exhibit low [NII]/Halpha and [OIII]/Hbeta ratios, indicating the dominance of ionization processes related to massive stars.
+
 		\end{itemize}
 
 		\item \textbf{BPT-[SII]:}
-	\begin{itemize}
-    		\item \textbf{Seyferts:} Above of both of the demarcation lines, characterized by high ionization levels.
-    		\item \textbf{LINERs (Low-Ionization Nuclear Emission Regions):} Above the Main AGN line, and below LINER/Sy2.  Typically characterized by weak AGN-like ionization.
-    		\item \textbf{Star-forming :} The primary source of ionization comes from the stars compounding the galaxy.
+		\begin{itemize}
+    		\item \textbf{Seyferts:} The upper-right portion of the diagram is dominated by galaxies with high [SII]/Halpha and [OIII]/Hbeta ratios meaning strong non-stellar ionization processes.
+    		\item \textbf{LINERs (Low-Ionization Nuclear Emission-line Regions):} The intermediate region between star-forming and Seyfert areas is populated by galaxies exhibiting low-ionization emission lines in their nuclei. This suggests a presence of weak AGN activity with low [OIII]/Hbeta and intermediate [SII]/Halpha ratios.
+		 \item \textbf{Star-forming :} Galaxies situated in the lower-left region of the diagram are primarily influenced by ongoing star formation. Emission line ratios, such as low [SII]/Halpha and [OIII]/Hbeta, indicate ionization predominantly driven by massive stars.
 		\end{itemize}
 
 \end{itemize}
 
+In my galaxy categorization within the BPT diagnostic diagrams, I relied on the demarcation functions established by Kauffmann03 \cite{2003MNRAS.346.1055K} and Kewley01 \cite{2001ApJ...556..121K} for the BPT-NII diagram, and the Main AGN Line in conjunction with the LINER/Sy2 line for the BPT SII diagram. All reunited in Kewley et al 2006 \cite{2006MNRAS.372..961K}.
 
-
-The underlying concept of this method is rooted in an intrinsic property of the ionization spectrum of massive stars near the Lyman limit of Helium, found at $\lambda = 228\AA$. Massive stars exhibit a bright cut, while the non-thermal radiation of AGNs extends to higher energies. 
-
-As a result, AGN host galaxies typically show greater ratios that surpass the demarcation lines predicted by photoionization models.
-
-There were several photoionization models at the inception of this technique; nowadays, the preferred ones are Kauffmann et al. \cite{2003MNRAS.346.1055K} and Kewley et al. \cite{2001ApJ...556..121K}.
-
-While the ideal classification incorporates all three primary BPT diagnostics, this study relies on a classification derived solely from the BPT diagrams for [NII] and [SII].
-
+The demarcation functions are outlined as follows:
 \begin{itemize}
     \item \textbf{BPT-[NII] Demarcation Functions:}
     \begin{itemize}
@@ -268,61 +266,77 @@ While the ideal classification incorporates all three primary BPT diagnostics, t
 \end{itemize}
 
 
+For the first stage of implementing the BPT diagnostic diagram analysis on the galaxies within the "BCG" and "non-BCG" samples, I conducted two separate selections—one with the prerequisite of a signal-to-noise ratio greater than 3 and another without this requirement. Subsequently, scatterplots were generated and demarcation lines were applied to discern distinct galaxy populations.
+The BPT-NII and -SII diagnostic diagrams for the “BCG” and “non-BCG” samples, are reported in \autoref{4} \autoref{5} \autoref{6} \autoref{7}, respectively.
 
-Returning to the methodology employed in this thesis, an initial screening process was conducted to exclude objects with flux values that rendered logarithmic ratios incalculable, specifically eliminating instances with numerators or denominators equal to zero. Subsequently, scatterplots were generated and demarcation lines were applied to discern distinct galaxy populations.
-Results images can be seen in :
+Given that the primary aim of this analysis is to quantify the fractions of distinct galaxy types (e.g., HII regions, LINERs, Seyferts, AGNs) within the two subsamples, I employed a robust bootstrap algorithm. For this procedure, I conduct 5000 iterations. In each iteration, I estimate the fraction of galaxies within a region of the BPT diagram by randomly varying the position of all galaxies according to a Gaussian probability distribution based on the 1-sigma errors of the line ratios. Following this, I use the mean and standard deviation to estimate the fractions and their relative uncertainties.
 
-\autoref{4} \autoref{5} \autoref{6} \autoref{7}
 
-Given the inclusion of error values for each flux measurement, a robust bootstrap algorithm was implemented through 5000 iterations. This algorithm introduced variations to each point on the diagnostic diagram in two dimensions based on its probability distribution, with the mean value reflecting the error-free point and a standard deviation equivalent to the error associated with the point in both directions.
+\begin{comment}
+This algorithm introduced variations to each point on the diagnostic diagram in two dimensions based on its probability distribution, with the mean value reflecting the error-free point and a standard deviation equivalent to the error associated with the point in both directions.
 
 This rigorous approach facilitated an accurate determination of counts and fractions for all populations, providing a statistically refined measure of uncertainty.
+\end{comment}
+
 \vspace{2cm}
 \begin{figure}[hbtp]
   \centering
-  \includegraphics[width=0.65\textwidth]{BCG-NII-V22}
-  \caption{BPT NII for the BCG sample }
+  \includegraphics[width=0.6\textwidth]{BCG-NII-V22}
+  \caption{BPT diagnostic diagram NII for the BCG sample with demarcation lines according to \cite{2006MNRAS.372..961K}.
+  Additionally, a cross is placed to represent the 75th percentile of the error distribution for all points in the diagram.  }
   \label{4}
 \end{figure}
 
 \begin{figure}[hbtp]
   \centering
-  \includegraphics[width=0.65\textwidth]{BCG-SII1731-V22}
-  \caption{BPT SII for the BCG sample }
+  \includegraphics[width=0.6\textwidth]{BCG-SII1731-V22}
+  \caption{BPT diagnostic diagram SII for the BCG sample with demarcation lines according to \cite{2006MNRAS.372..961K}.
+  Additionally, a cross is placed to represent the 75th percentile of the error distribution for all points in the diagram. }
   \label{5}
 \end{figure}
 
 
 \begin{figure}[hbtp]
   \centering
-  \includegraphics[width=0.7\textwidth]{SDSS-NII-V22}
-  \caption{BPT NII for the SDSS noBCG sample }
+  \includegraphics[width=0.6\textwidth]{SDSS-NII-V22}
+  \caption{BPT diagnostic diagram NII for the non-BCG sample with demarcation lines according to \cite{2006MNRAS.372..961K}.
+  Additionally, a cross is placed to represent the 75th percentile of the error distribution for all points in the diagram. }
   \label{6}
 \end{figure}
 
 \begin{figure}[hbtp]
   \centering
-  \includegraphics[width=0.7\textwidth]{SDSS-NII-V22}
-  \caption{BPT SII for the SDSS noBCG sample }
+  \includegraphics[width=0.6\textwidth]{SDSS-NII-V22}
+  \caption{BPT diagnostic diagram SII for the non-BCG sample with demarcation lines according to \cite{2006MNRAS.372..961K}.
+  Additionally, a cross is placed to represent the 75th percentile of the error distribution for all points in the diagram. }
   \label{7}
 \end{figure}
 
 \newpage
 \subsection{Radio AGN activity in BCG and non-BCG galaxies}
+In this analysis we use the catalog from Best et al. \cite{2005MNRAS.362....9B} based on observations from NVSS and FIRST surveys, to estimate the fraction of BCGs and non-BCGs galaxies exhibiting radio emission due to AGN activity.
+A crucial step in calculating a representative fraction of Radio Loud objects was to appropriately define the spatial regions for the fraction calculations. To accomplish this, we identified the regions mapped by the radio survey employed. Subsequently, the selection has been delineated where all three catalogs employed in this study exhibited an overlap. It is essential to emphasize that the primary objective is to obtain representative fractions for both samples.
+Based on the previously explained details regarding the precision of the Radio survey, galaxies displaying radio loudness were selected from the SDSS dataset within a distance of less than 5 arcseconds. This process resulted in two distinct samples, each containing both spectral properties and radio loud detections, totaling 409 and 365,666 galaxies identified as BCG and non-BCG, respectively. In \autoref{8}, I report the refined spatial regions required for determining the radio loud fractions, along with a visual representation of the BCGs and the radio emitters identified through cross-matching the catalogues.
 
-Following the preceding analyses, let's now detail how the fractions of Radio Loud AGNs were calculated for the two derived samples.
 
-The primary goal of this analysis segment is to determine a fraction of the form :
- $$\frac{N_{\text{radio}}}{N_{\text{total}}}$$
+\begin{comment}
+To do a reasonable comparison between these fractions i need to cross-match the area obtained from the previous cross-match, between SDSS and the C4 BCG catalogue with the radio survey adopted. In \autoref{8} I report the distribution of galaxies from SDSS DR7 in grey and the BCGs identified from the crossmatch in red. Galaxies covered from Best et al. detections is represented in orange. The black dashed squares show the refined cross-matched area used to produce the BCG and non-BCG samples.
+From this procedure is selected two catalogs of “BCG” and “non-BCG” within the new cross-matched area, and flagged elements that show radio loud emission as reported by the radio survey from Best et al.
+In these two new sub-samples I selected the galaxies associated to a radio-loud source in the radio catalog.
+
+Based on the previously explained details regarding Radio survey's precision, galaxies displaying radio loudness were selected from the SDSS dataset within a distance of less than 5 arcsec. 
+
+At the end, through this process, i obtained two distinct samples, each containing both spectral properties and radio loud detections, for a total of 409 and 365666 galaxies identified as BCG and non-BCG, respectively. In \autoref{8} i report the refined space regions needed for the determination of the radio loud fractions, together with a visual depiction of the BCGs and the Radio Emitters identified by cross-matching the catalogues. 
+
+
 
 A crucial step in calculating a representative fraction of Radio Loud objects was to appropriately define the spatial regions for the fraction calculations. To accomplish this, we identified the regions mapped by the radio survey employed. Subsequently, the selection has been delineated where all three catalogs exhibited an overlap. It is essential to emphasize that the primary objective is to obtain representative fractions for both of our samples.
+\end{comment}
 
-The selected spatial regions considered for calculating the fractions of Radio Loud objects can be found in \autoref{8}
 
-\vspace{2cm}
 \begin{figure}[hbtp]
   \centering
-  \includegraphics[width=0.9\textwidth]{Fourth}
+  \includegraphics[width=0.65\textwidth]{Fourth}
   \caption{Distribution of data on the sky in J2000 Equatorial Coordinates. The grey areas depict galaxies included in the main sample \cite{mpa-sdss-dr7}, while BCGs identified through crossmatching are highlighted in red. Sources of radio emission found by Best et al. \cite{2005MNRAS.362....9B} are shown in orange. Dashed lines delineate the sky regions where the calculation of Radio Loud AGN fractions has been defined. }
   \label{8}
 \end{figure}

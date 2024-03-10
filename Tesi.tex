@@ -117,14 +117,23 @@
 \include{conclusioni} 
 
 \bibliographystyle{plainnat}
+\begingroup
+\scriptsize% o \footnotesize o \scriptsize o \small a seconda della dimensione del carattere desiderata
+\linespread{1} % o il valore desiderato per l'interlinea
+\bibliography{articoli} % sostituisci con il tuo file di bibliografia
+\endgroup
+
+
+
+
 %\setcitestyle{authoryear,open={(},close={)}}
-\bibliography{articoli}{}
+%\bibliography{articoli}{}
 
 
 %\include{bibliografia}         
 
 % INIZIO COMMENTO
-\begin{comment} 
+
 
 % quello che sta qui non viene compilato
 
@@ -132,7 +141,6 @@
 
 %\listoftables
 
-\end{comment}
 % FINE COMMENTO
 
 

@@ -16,45 +16,45 @@ Warning--entry type for "2009yCat..73790867V" isn't style-file defined
 --line 464 of file articoli.bib
 Warning--entry type for "mpa-sdss-dr7" isn't style-file defined
 --line 750 of file articoli.bib
-You've used 50 entries,
+You've used 48 entries,
             2481 wiz_defined-function locations,
-            949 strings with 14193 characters,
-and the built_in function-call counts, 19144 in all, are:
-= -- 1702
-> -- 826
-< -- 43
-+ -- 332
-- -- 232
-* -- 1605
-:= -- 3050
-add.period$ -- 203
-call.type$ -- 50
-change.case$ -- 100
-chr.to.int$ -- 50
-cite$ -- 50
-duplicate$ -- 951
-empty$ -- 1783
-format.name$ -- 342
-if$ -- 4111
+            934 strings with 13892 characters,
+and the built_in function-call counts, 18330 in all, are:
+= -- 1626
+> -- 796
+< -- 41
++ -- 320
+- -- 224
+* -- 1535
+:= -- 2926
+add.period$ -- 195
+call.type$ -- 48
+change.case$ -- 96
+chr.to.int$ -- 48
+cite$ -- 48
+duplicate$ -- 913
+empty$ -- 1705
+format.name$ -- 328
+if$ -- 3933
 int.to.chr$ -- 1
-int.to.str$ -- 51
-missing$ -- 48
-newline$ -- 311
-num.names$ -- 152
-pop$ -- 312
+int.to.str$ -- 49
+missing$ -- 46
+newline$ -- 299
+num.names$ -- 146
+pop$ -- 300
 preamble$ -- 1
-purify$ -- 50
+purify$ -- 48
 quote$ -- 0
-skip$ -- 533
+skip$ -- 511
 stack$ -- 0
-substring$ -- 841
-swap$ -- 159
+substring$ -- 789
+swap$ -- 153
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 350
+type$ -- 336
 warning$ -- 0
-while$ -- 141
+while$ -- 135
 width$ -- 0
-write$ -- 762
+write$ -- 732
 (There was 1 error message)

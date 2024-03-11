@@ -1,4 +1,4 @@
-\begin{thebibliography}{50}
+\begin{thebibliography}{48}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -301,18 +301,6 @@ Lisa~J. Kewley and Groves.
 \newblock \emph{Monthly Notices of the Royal Astronomical Society},
   372\penalty0 (3):\penalty0 961--976, November 2006.
 \newblock \doi{10.1111/j.1365-2966.2006.10859.x}.
-
-\bibitem[{Kauffmann} and {Heckman}(2003)]{2003MNRAS.346.1055K}
-Guinevere {Kauffmann} and {Heckman}.
-\newblock {The host galaxies of active galactic nuclei}.
-\newblock \emph{\mnras}, 346\penalty0 (4):\penalty0 1055--1077, December 2003.
-\newblock \doi{10.1111/j.1365-2966.2003.07154.x}.
-
-\bibitem[{Kewley} and {Dopita}(2001)]{2001ApJ...556..121K}
-L.~J. {Kewley} and {Dopita}.
-\newblock {Theoretical Modeling of Starburst Galaxies}.
-\newblock \emph{\apj}, 556\penalty0 (1):\penalty0 121--140, July 2001.
-\newblock \doi{10.1086/321545}.
 
 \bibitem[{Lopes} and {Ribeiro}(2017)]{2017MNRAS.472..409L}
 P.~A.~A. {Lopes} and {Ribeiro}.

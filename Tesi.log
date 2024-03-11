@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  11 MAR 2024 21:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.25)  11 MAR 2024 22:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1025,7 +1025,7 @@ Package rerunfilecheck Info: File `Tesi.out' has not changed.
 Here is how much of TeX's memory you used:
  17639 strings out of 478994
  303625 string characters out of 5858184
- 732222 words of memory out of 5000000
+ 732315 words of memory out of 5000000
  34697 multiletter control sequences out of 15000+600000
  412742 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1045,7 +1045,7 @@ exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texl
 ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texliv
 e/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Tesi.pdf (36 pages, 2601295 bytes).
+Output written on Tesi.pdf (36 pages, 2601334 bytes).
 PDF statistics:
  554 PDF objects out of 1000 (max. 8388607)
  456 compressed objects within 5 object streams

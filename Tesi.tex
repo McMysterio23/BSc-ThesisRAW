@@ -52,7 +52,7 @@
 \setlength{\headheight}{14.49998pt}
 \addtolength{\topmargin}{-2.49998pt}
 \usepackage{pdfpages}
-\usepackage{hyperref}
+%\usepackage{hyperref}
 \usepackage{booktabs}
 
 \newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society}
@@ -108,7 +108,9 @@
 
 %\include{frontespizio} %DA CAMBIARE OBBLIGATORIAMENTE, DEVO SOSTITUIRE CON UN QUALCOSA CHE VADA AD AGGIUNGERE IL PDF DEL FRONTESPIZIO NON IL FILE CON IL CODICE !!
 \includepdf{/Users/andreamaccarinelli/Desktop/BSc-ThesisRAW/frontespizioFIRMATO.pdf}
+\frontmatter
 \include{Abstract}
+\mainmatter
 \tableofcontents
 \setcounter{page}{1}
 \include{capitolo_1}    
@@ -122,7 +124,8 @@
 \linespread{1} % o il valore desiderato per l'interlinea
 \bibliography{articoli} % sostituisci con il tuo file di bibliografia
 \endgroup
-
+\backmatter
+\include{ringraziamenti}
 
 
 

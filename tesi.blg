@@ -7,10 +7,11 @@ A level-1 auxiliary file: capitolo_1.aux
 A level-1 auxiliary file: capitolo_2.aux
 A level-1 auxiliary file: capitolo_3.aux
 A level-1 auxiliary file: conclusioni.aux
-Illegal, another \bibstyle command---line 28 of file Tesi.aux
+Illegal, another \bibstyle command---line 11 of file Tesi.aux
  : \bibstyle
  :          {plainnat}
 I'm skipping whatever remains of this command
+A level-1 auxiliary file: ringraziamenti.aux
 Database file #1: articoli.bib
 Warning--entry type for "2009yCat..73790867V" isn't style-file defined
 --line 464 of file articoli.bib
@@ -18,7 +19,7 @@ Warning--entry type for "mpa-sdss-dr7" isn't style-file defined
 --line 750 of file articoli.bib
 You've used 48 entries,
             2481 wiz_defined-function locations,
-            934 strings with 13892 characters,
+            935 strings with 13910 characters,
 and the built_in function-call counts, 18330 in all, are:
 = -- 1626
 > -- 796
